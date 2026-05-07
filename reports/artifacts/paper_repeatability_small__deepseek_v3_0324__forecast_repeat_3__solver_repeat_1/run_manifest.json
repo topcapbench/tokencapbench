@@ -1,0 +1,188 @@
+{
+  "artifact_hashes": {
+    "config_snapshot.yaml": "e078e936c89907cdb952ce2b4c78e82508a14afb639967e8ead54958864f3afa",
+    "forecasts.jsonl": "4ceaff0f91edf20648c03c2743efbc9db501a449207c674c12ac30ee6924305c",
+    "metrics.json": "bbf60c6c2489f2042be118cdb350e02b458d471045524ae7c760a963fc407ff7",
+    "outcomes.jsonl": "64cc3a65412bd20c58d806b7a17c59f319f250f95bb0d47f045c755900dbcdda",
+    "source_config_snapshot.yaml": "e078e936c89907cdb952ce2b4c78e82508a14afb639967e8ead54958864f3afa",
+    "task_file_hash.json": "0a60e772c1bb2009de15441a37a5c1b4c2e9092489a65b02d7abe9baa5f0505e"
+  },
+  "artifact_id": "paper_repeatability_small__deepseek_v3_0324__forecast_repeat_3__solver_repeat_1",
+  "budget_grids": {
+    "coding": [
+      256,
+      1024,
+      2048
+    ],
+    "default": [
+      256,
+      1024,
+      2048
+    ],
+    "math": [
+      128,
+      512,
+      2048
+    ]
+  },
+  "code_commit": "2410bee838921f4a50c01ab7d9cee186f1af5778",
+  "command_line_arguments": [
+    "--config",
+    "configs/experiments/paper_repeatability_small.yaml",
+    "--cap-usd",
+    "200",
+    "--force",
+    "--resume",
+    "--workers",
+    "16",
+    "--models",
+    "gemini-2.0-flash-lite-001",
+    "DeepSeek-V3-0324"
+  ],
+  "config": {
+    "budget_grid": {
+      "coding": [
+        256,
+        1024,
+        2048
+      ],
+      "default": [
+        256,
+        1024,
+        2048
+      ],
+      "math": [
+        128,
+        512,
+        2048
+      ]
+    },
+    "forecast_only": false,
+    "forecast_prompt": "prompts/forecast_prompt.md",
+    "limit": 100,
+    "max_forecast_tokens": 900,
+    "metadata": {
+      "completed_models": [
+        "gemini-2.0-flash-lite-001",
+        "gemini-2.0-flash-001",
+        "DeepSeek-V3-0324"
+      ],
+      "cost_cap_usd": 20,
+      "forecast_repeat_index": 3,
+      "model_slug": "deepseek_v3_0324",
+      "paper_role": "repeatability",
+      "prompt_variant_index": 1,
+      "prompt_variant_path": "prompts/forecast_prompt.md",
+      "repeat_ids": [
+        "forecast_3__solver_1"
+      ],
+      "repeat_index": 3001,
+      "run_status": "completed_live_api",
+      "solver_repeat_index": 1,
+      "suite_name": "paper_repeatability_small"
+    },
+    "model": "DeepSeek-V3-0324",
+    "output_dir": "reports/runs/paper_repeatability_small",
+    "provider": "provider",
+    "run_id": "deepseek_v3_0324__forecast_repeat_3__solver_repeat_1",
+    "scaffold": "direct",
+    "solver_prompts": {
+      "coding": "prompts/solve_coding_prompt.md",
+      "math": "prompts/solve_math_prompt.md"
+    },
+    "task_file": "data/processed/paper_repeatability_small.jsonl",
+    "temperature": 0.0
+  },
+  "created_utc": "2026-05-04T03:37:12.942880+00:00",
+  "dataset": {
+    "budget_grids_by_source": {
+      "evalplus_humaneval": [
+        [
+          128,
+          512,
+          2048
+        ]
+      ],
+      "evalplus_mbpp": [
+        [
+          128,
+          512,
+          2048
+        ]
+      ],
+      "gsm8k": [
+        [
+          128,
+          512,
+          2048
+        ]
+      ]
+    },
+    "exists": true,
+    "path": "data/processed/paper_repeatability_small.jsonl",
+    "sha256": "2f88fe9b1470d093c72e06b5a05d466d87b30315ba6825f6a19a367f0133706d",
+    "sources": {
+      "evalplus_humaneval": {
+        "source_versions": [
+          "evalplus"
+        ],
+        "tasks": 30,
+        "tracks": [
+          "coding"
+        ],
+        "verifiers": [
+          "evalplus"
+        ]
+      },
+      "evalplus_mbpp": {
+        "source_versions": [
+          "evalplus"
+        ],
+        "tasks": 30,
+        "tracks": [
+          "coding"
+        ],
+        "verifiers": [
+          "evalplus"
+        ]
+      },
+      "gsm8k": {
+        "source_versions": [
+          "openai/gsm8k"
+        ],
+        "tasks": 40,
+        "tracks": [
+          "math"
+        ],
+        "verifiers": [
+          "numeric_exact"
+        ]
+      }
+    },
+    "tasks": 100
+  },
+  "model_ids": [
+    "DeepSeek-V3-0324"
+  ],
+  "packaging_note": "No environment variables or secrets are copied.",
+  "phase": "packaged",
+  "prompt_hashes": {
+    "forecast": {
+      "path": "prompts/forecast_prompt.md",
+      "sha256": "82e2dcd0c508f9b6a98a3d5b943839de419509454372f54aac1ed5e2da1940ba"
+    },
+    "solver_coding": {
+      "path": "prompts/solve_coding_prompt.md",
+      "sha256": "747e63037dbac2c5fe94f41407fd29e02b5dc0c446177c6ee16d1a6c152ab061"
+    },
+    "solver_math": {
+      "path": "prompts/solve_math_prompt.md",
+      "sha256": "0ceb852214192dba095e0ece5179fd333440763b60383d2382cac6b2138c4d49"
+    }
+  },
+  "provider": "provider",
+  "run_id": "deepseek_v3_0324__forecast_repeat_3__solver_repeat_1",
+  "scaffold": "direct",
+  "schema_version": 1,
+  "source_run_dir": "reports/runs/paper_repeatability_small/deepseek_v3_0324__forecast_repeat_3__solver_repeat_1"
+}

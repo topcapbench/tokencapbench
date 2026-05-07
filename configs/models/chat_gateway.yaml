@@ -1,0 +1,7 @@
+provider: chat_gateway
+models:
+  - name: REPLACE_WITH_GATEWAY_MODEL_NAME
+    notes: Paste exact model identifier from provider gateway.
+api:
+  env_key: BUDGET2SUCCESS_GATEWAY_API_KEY
+  env_base_url: BUDGET2SUCCESS_GATEWAY_BASE_URL

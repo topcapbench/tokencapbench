@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "budget2success"
+version = "0.3.0"
+description = "Benchmark harness for pre-execution verified-success forecasting under token budgets."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=2.0",
+  "pyyaml>=6.0",
+  "numpy>=1.24",
+  "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+datasets = ["datasets>=2.18"]
+clients = ["openai>=1.0"]
+math = ["math-verify>=0.9.0"]
+coding = ["evalplus>=0.3.0"]
+bigcodebench = ["bigcodebench"]
+report = ["markdown>=3.10", "weasyprint>=68.0"]
+all = ["datasets>=2.18", "math-verify>=0.9.0", "openai>=1.0", "pytest>=8.0", "markdown>=3.10", "weasyprint>=68.0", "bigcodebench"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[project.scripts]
+budget2success = "budget2success.cli:main"
+tokencapbench = "budget2success.cli:main"

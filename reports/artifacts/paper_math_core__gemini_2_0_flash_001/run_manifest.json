@@ -1,0 +1,161 @@
+{
+  "artifact_hashes": {
+    "config_snapshot.yaml": "4ccc75b31bd93a069e8c8010ba555232dd4f1db87c28117cfdecd985d07dbfd9",
+    "forecasts.jsonl": "3a2261bf3e3efd8e6d7445a2a36636e1fc951f0681a830f17eb8363066d346ce",
+    "metrics.json": "a7912599d36082a3cac0fa2d934c4d89f9ba76f32b2bdcfdb9c61f15669b8037",
+    "outcomes.jsonl": "e4c1053040d8499532fe2dc9286b711d3572cf6d5b6b6c46a82c91d08e25d025",
+    "sha256_manifest.json": "a0e1e8b3bcd577de730ee016df8c9bb1ffb38857b5f938799316531ae8dcfe4a",
+    "source_config_snapshot.yaml": "4ccc75b31bd93a069e8c8010ba555232dd4f1db87c28117cfdecd985d07dbfd9",
+    "task_file_hash.json": "1a00d0e57ab6685f846d0e3e096735e7270daaff6e2439c20f2f541323c36266"
+  },
+  "artifact_id": "paper_math_core__gemini_2_0_flash_001",
+  "budget_grids": {
+    "default": [
+      128,
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "math": [
+      128,
+      256,
+      512,
+      1024,
+      2048
+    ]
+  },
+  "code_commit": "2410bee838921f4a50c01ab7d9cee186f1af5778",
+  "command_line_arguments": [
+    "--run-dir",
+    "reports/runs/paper_math_core/gemini_2_0_flash_001"
+  ],
+  "config": {
+    "budget_grid": {
+      "default": [
+        128,
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "math": [
+        128,
+        256,
+        512,
+        1024,
+        2048
+      ]
+    },
+    "forecast_only": false,
+    "forecast_prompt": "prompts/forecast_prompt.md",
+    "limit": null,
+    "max_forecast_tokens": 900,
+    "metadata": {
+      "cost_cap_usd": 20,
+      "model_slug": "gemini_2_0_flash_001",
+      "paper_role": "main_math",
+      "prompt_variant_index": 1,
+      "prompt_variant_path": "prompts/forecast_prompt.md",
+      "suite_name": "paper_math_core"
+    },
+    "model": "gemini-2.0-flash-001",
+    "output_dir": "reports/runs/paper_math_core",
+    "provider": "provider",
+    "run_id": "gemini_2_0_flash_001",
+    "scaffold": "direct",
+    "solver_prompts": {
+      "agentic": "prompts/solve_agentic_prompt.md",
+      "coding": "prompts/solve_coding_prompt.md",
+      "math": "prompts/solve_math_prompt.md",
+      "swe": "prompts/solve_swe_prompt.md"
+    },
+    "task_file": "data/processed/paper_math_core.jsonl",
+    "temperature": 0.0
+  },
+  "created_utc": "2026-05-03T23:21:09.961750+00:00",
+  "dataset": {
+    "budget_grids_by_source": {
+      "gsm8k": [
+        [
+          64,
+          128,
+          256,
+          512,
+          1024
+        ]
+      ],
+      "hendrycks_math": [
+        [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ]
+      ]
+    },
+    "exists": true,
+    "path": "data/processed/paper_math_core.jsonl",
+    "sha256": "5a3b769ef2438af489f41366922ab5af1dd37d05aa4fcb9278e589afc237294d",
+    "sources": {
+      "gsm8k": {
+        "source_versions": [
+          "openai/gsm8k"
+        ],
+        "tasks": 500,
+        "tracks": [
+          "math"
+        ],
+        "verifiers": [
+          "numeric_exact"
+        ]
+      },
+      "hendrycks_math": {
+        "source_versions": [
+          "HuggingFaceH4/MATH-500"
+        ],
+        "tasks": 500,
+        "tracks": [
+          "math"
+        ],
+        "verifiers": [
+          "math_verify_optional"
+        ]
+      }
+    },
+    "tasks": 1000
+  },
+  "model_ids": [
+    "gemini-2.0-flash-001"
+  ],
+  "packaging_note": "No environment variables or secrets are copied.",
+  "phase": "packaged",
+  "prompt_hashes": {
+    "forecast": {
+      "path": "prompts/forecast_prompt.md",
+      "sha256": "82e2dcd0c508f9b6a98a3d5b943839de419509454372f54aac1ed5e2da1940ba"
+    },
+    "solver_agentic": {
+      "path": "prompts/solve_agentic_prompt.md",
+      "sha256": "0aee964d4a60992da32cc82b2989e4a4210f3f4bcc6104fb8e345b32d15dbfbf"
+    },
+    "solver_coding": {
+      "path": "prompts/solve_coding_prompt.md",
+      "sha256": "747e63037dbac2c5fe94f41407fd29e02b5dc0c446177c6ee16d1a6c152ab061"
+    },
+    "solver_math": {
+      "path": "prompts/solve_math_prompt.md",
+      "sha256": "0ceb852214192dba095e0ece5179fd333440763b60383d2382cac6b2138c4d49"
+    },
+    "solver_swe": {
+      "path": "prompts/solve_swe_prompt.md",
+      "sha256": "9f764db3b79e7ba8fd80f4c168a4b2cb0572240bae71c5ab168455aea757098a"
+    }
+  },
+  "provider": "provider",
+  "run_id": "gemini_2_0_flash_001",
+  "scaffold": "direct",
+  "schema_version": 1,
+  "source_run_dir": "reports/runs/paper_math_core/gemini_2_0_flash_001"
+}

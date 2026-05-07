@@ -1,0 +1,106 @@
+{
+  "cap_usd": 40.0,
+  "config": "configs/experiments/paper_math_core.yaml",
+  "estimated_total_cost_usd": 22.48154,
+  "exceeds_cap": false,
+  "mode": "conservative",
+  "models": [
+    "DeepSeek-V3-0324",
+    "claude-3-haiku",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-001"
+  ],
+  "per_model": [
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 5.619659,
+          "solver_calls": 2500,
+          "source": "gsm8k",
+          "tasks": 500
+        },
+        {
+          "estimated_cost_usd": 9.022011,
+          "solver_calls": 2500,
+          "source": "hendrycks_math",
+          "tasks": 500
+        }
+      ],
+      "forecast_call_cost_usd": 3.586023,
+      "model": "DeepSeek-V3-0324",
+      "pricing_basis": "Conservative DeepSeek official v4-pro undiscounted upper-bound proxy",
+      "solver_call_cost_usd": 11.055647,
+      "total_cost_usd": 14.64167,
+      "worst_case_cost_usd": 14.64167
+    },
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 1.888922,
+          "solver_calls": 2500,
+          "source": "gsm8k",
+          "tasks": 500
+        },
+        {
+          "estimated_cost_usd": 3.121766,
+          "solver_calls": 2500,
+          "source": "hendrycks_math",
+          "tasks": 500
+        }
+      ],
+      "forecast_call_cost_usd": 1.190233,
+      "model": "claude-3-haiku",
+      "pricing_basis": "Anthropic Claude Haiku 3",
+      "solver_call_cost_usd": 3.820455,
+      "total_cost_usd": 5.010688,
+      "worst_case_cost_usd": 5.010688
+    },
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 0.611369,
+          "solver_calls": 2500,
+          "source": "gsm8k",
+          "tasks": 500
+        },
+        {
+          "estimated_cost_usd": 1.005306,
+          "solver_calls": 2500,
+          "source": "hendrycks_math",
+          "tasks": 500
+        }
+      ],
+      "forecast_call_cost_usd": 0.386093,
+      "model": "gemini-2.0-flash-001",
+      "pricing_basis": "Google Gemini 2.0 Flash standard",
+      "solver_call_cost_usd": 1.230582,
+      "total_cost_usd": 1.616675,
+      "worst_case_cost_usd": 1.616675
+    },
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 0.458527,
+          "solver_calls": 2500,
+          "source": "gsm8k",
+          "tasks": 500
+        },
+        {
+          "estimated_cost_usd": 0.75398,
+          "solver_calls": 2500,
+          "source": "hendrycks_math",
+          "tasks": 500
+        }
+      ],
+      "forecast_call_cost_usd": 0.28957,
+      "model": "gemini-2.0-flash-lite-001",
+      "pricing_basis": "Google Gemini 2.0 Flash-Lite standard",
+      "solver_call_cost_usd": 0.922936,
+      "total_cost_usd": 1.212506,
+      "worst_case_cost_usd": 1.212506
+    }
+  ],
+  "suite_name": "paper_math_core",
+  "tasks": 1000,
+  "worst_case_total_cost_usd": 22.481539
+}

@@ -1,0 +1,118 @@
+{
+  "artifacts": [
+    {
+      "external_path": "external_artifact_store/20260504T212800Z/core/tokencapbench_core_forecasts.jsonl.gz",
+      "gzip_bytes": 405280,
+      "gzip_sha256": "08ab8826bc537f6558e587efa881493dc2ef7359a8602abd531233ca6f340d79",
+      "kind": "forecasts",
+      "raw_bytes": 9408344,
+      "raw_rows": 6168,
+      "raw_sha256": "f326b27234c460a108ea60444ea1b8d6308dede4ba3e42b2e73928587a7be566",
+      "scope": "core",
+      "source": "artifacts/tokencapbench_core_forecasts.jsonl",
+      "status": "present"
+    },
+    {
+      "external_path": "external_artifact_store/20260504T212800Z/core/tokencapbench_core_outcomes.jsonl.gz",
+      "gzip_bytes": 5009662,
+      "gzip_sha256": "5e425cbe8e98ef14ee3f505181157bc23861ab188ffe5167b9382f210057680c",
+      "kind": "outcomes",
+      "raw_bytes": 67729925,
+      "raw_rows": 33008,
+      "raw_sha256": "3c9b08bc26032d08b8f9868557d71de25ac8c7f6d9ac2924ea25ac1dd965fb73",
+      "scope": "core",
+      "source": "artifacts/tokencapbench_core_outcomes.jsonl",
+      "status": "present"
+    },
+    {
+      "external_path": "external_artifact_store/20260504T212800Z/extensions/tokencapbench_extension_forecasts.jsonl.gz",
+      "gzip_bytes": 152313,
+      "gzip_sha256": "579a7c3c8ecb1f218ad310f809714e2898c32960d85756d0da2a92ae538340f1",
+      "kind": "forecasts",
+      "raw_bytes": 2911748,
+      "raw_rows": 1760,
+      "raw_sha256": "59e99afc0bb15b3d056301eb028c4fddb3dc1af2d2d1773a266c52818beadbbf",
+      "scope": "extension",
+      "source": "artifacts/tokencapbench_extension_forecasts.jsonl",
+      "status": "present"
+    },
+    {
+      "external_path": "external_artifact_store/20260504T212800Z/extensions/tokencapbench_extension_outcomes.jsonl.gz",
+      "gzip_bytes": 2681948,
+      "gzip_sha256": "057ee5bc2211b0faa03c49867288dc10f34335d3c111de9d99820d2b48d453f1",
+      "kind": "outcomes",
+      "raw_bytes": 23189732,
+      "raw_rows": 10140,
+      "raw_sha256": "31f4962cd0431cd1f9a7b07327c2a9621e29ec52060aff0a14d5d9b9188fbffd",
+      "scope": "extension",
+      "source": "artifacts/tokencapbench_extension_outcomes.jsonl",
+      "status": "present"
+    },
+    {
+      "external_path": "external_artifact_store/20260504T212800Z/timing/tokencapbench_timing_diagnostic_forecasts.jsonl.gz",
+      "gzip_bytes": 69529,
+      "gzip_sha256": "3b9255ceccd4789cac29ff97914234615fea981b84c0579d9b38bc1f9db1c1bd",
+      "kind": "forecasts",
+      "raw_bytes": 1647919,
+      "raw_rows": 1200,
+      "raw_sha256": "45201753e2068b0c2c410f6a289d888c17a05fd7c7e7489ef0ce887649c095c5",
+      "scope": "timing_diagnostic",
+      "source": "artifacts/tokencapbench_timing_diagnostic_forecasts.jsonl",
+      "status": "present"
+    },
+    {
+      "external_path": "external_artifact_store/20260504T212800Z/timing/tokencapbench_timing_diagnostic_outcomes.jsonl.gz",
+      "gzip_bytes": 528683,
+      "gzip_sha256": "d61985ca056859055a36e611f5d7fab2ebe7e84ec8bc10a138a33823a8ab6bdd",
+      "kind": "outcomes",
+      "raw_bytes": 5992911,
+      "raw_rows": 3600,
+      "raw_sha256": "2998630ce2bdcca88d178b708e1a6dd5faa78f4440b2dba7e6537e1d8df488dd",
+      "scope": "timing_diagnostic",
+      "source": "artifacts/tokencapbench_timing_diagnostic_outcomes.jsonl",
+      "status": "present"
+    },
+    {
+      "external_path": "external_artifact_store/20260504T212800Z/core/tokencapbench_core_metrics.json",
+      "gzip_bytes": "",
+      "gzip_sha256": "",
+      "kind": "metrics",
+      "raw_bytes": 12873,
+      "raw_rows": "",
+      "raw_sha256": "b9bc110d0e87cd5f9f9255652c9ec8d75cd2f06f7c502a52980e271a18c0f2f9",
+      "scope": "core",
+      "source": "artifacts/tokencapbench_core_metrics.json",
+      "status": "present"
+    },
+    {
+      "external_path": "external_artifact_store/20260504T212800Z/extensions/tokencapbench_extension_metrics.json",
+      "gzip_bytes": "",
+      "gzip_sha256": "",
+      "kind": "metrics",
+      "raw_bytes": 11610,
+      "raw_rows": "",
+      "raw_sha256": "abcd00219d7ec53455f15d6ba951a9978078374be631ad85ef273e730ddaade3",
+      "scope": "extension",
+      "source": "artifacts/tokencapbench_extension_metrics.json",
+      "status": "present"
+    },
+    {
+      "external_path": "external_artifact_store/20260504T212800Z/timing/tokencapbench_timing_diagnostic_metrics.json",
+      "gzip_bytes": "",
+      "gzip_sha256": "",
+      "kind": "metrics",
+      "raw_bytes": 13339,
+      "raw_rows": "",
+      "raw_sha256": "50827d702ca109ec73a4be7e0c2fa1927bd582839c80e5d743372014beaeeb63",
+      "scope": "timing_diagnostic",
+      "source": "artifacts/tokencapbench_timing_diagnostic_metrics.json",
+      "status": "present"
+    }
+  ],
+  "core_outcomes_expected_rows": 33008,
+  "created_utc": "2026-05-07T09:42:51Z",
+  "external_store": "external_artifact_store/20260504T212800Z",
+  "release_archive": "reports/tokencapbench_release_archive.zip",
+  "release_archive_bytes": 28540073,
+  "release_archive_sha256": "6c6e71f1cff4bcce3b3abf96a3891716fa5a1c91530218d779d90424a10e573f"
+}

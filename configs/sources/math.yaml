@@ -1,0 +1,7 @@
+source: math
+split: test
+limit: 500
+budget_grid: [512, 1024, 2048, 4096, 8192]
+kwargs:
+  dataset: HuggingFaceH4/MATH-500
+role: main math track

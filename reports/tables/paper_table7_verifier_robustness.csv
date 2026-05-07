@@ -1,0 +1,9 @@
+suite,source,verifier_policy,math_verify_available,unsupported_rows,run_id,model,n_rows,n_changed,change_rate,old_success_rate,new_success_rate,success_delta,verifier_mode
+paper_math_core,gsm8k,numeric_strict_for_gsm8k_or_non_symbolic,True,0,claude_3_haiku,claude-3-haiku,2500,133,0.0532,0.4616,0.4532,-0.008400000000000019,task_aware_strict
+paper_math_core,hendrycks_math,math_verify_for_symbolic,True,0,claude_3_haiku,claude-3-haiku,2500,202,0.0808,0.1972,0.2524,0.05520000000000003,task_aware_strict
+paper_math_core,gsm8k,numeric_strict_for_gsm8k_or_non_symbolic,True,0,deepseek_v3_0324,DeepSeek-V3-0324,2500,103,0.0412,0.5796,0.5512,-0.02839999999999998,task_aware_strict
+paper_math_core,hendrycks_math,math_verify_for_symbolic,True,0,deepseek_v3_0324,DeepSeek-V3-0324,2500,267,0.1068,0.3124,0.3592,0.04680000000000001,task_aware_strict
+paper_math_core,gsm8k,numeric_strict_for_gsm8k_or_non_symbolic,True,0,gemini_2_0_flash_001,gemini-2.0-flash-001,2500,105,0.042,0.6236,0.6104,-0.01319999999999999,task_aware_strict
+paper_math_core,hendrycks_math,math_verify_for_symbolic,True,0,gemini_2_0_flash_001,gemini-2.0-flash-001,2500,347,0.1388,0.4328,0.4564,0.023599999999999954,task_aware_strict
+paper_math_core,gsm8k,numeric_strict_for_gsm8k_or_non_symbolic,True,0,gemini_2_0_flash_lite_001,gemini-2.0-flash-lite-001,2500,133,0.0532,0.6192,0.6244,0.005199999999999982,task_aware_strict
+paper_math_core,hendrycks_math,math_verify_for_symbolic,True,0,gemini_2_0_flash_lite_001,gemini-2.0-flash-lite-001,2500,303,0.1212,0.4424,0.4492,0.006799999999999973,task_aware_strict

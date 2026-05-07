@@ -1,0 +1,81 @@
+check,status,path,notes
+required_doc,pass,README.md,present
+required_doc,pass,BENCHMARK_CARD.md,present
+required_doc,pass,DATA_PROVENANCE.md,present
+required_doc,pass,REPRODUCING.md,present
+required_table,pass,reports/tables/paper_table1_related_work.csv,present
+required_table,pass,reports/tables/paper_table2_dataset_composition.csv,present
+required_table,pass,reports/tables/paper_table_clean_evidence_scope.csv,present
+required_table,pass,reports/tables/paper_table3a_calibration_capability.csv,present
+required_table,pass,reports/tables/paper_table3b_allocation_diagnostics.csv,present
+required_table,pass,reports/tables/paper_table4_calibration_split_baselines.csv,present
+required_table,pass,reports/tables/paper_table4_main_baseline_summary.csv,present
+required_table,pass,reports/tables/paper_table5_diagnostic_baselines.csv,present
+required_table,pass,reports/tables/paper_table6_cost_runtime.csv,present
+required_table,pass,reports/tables/paper_table7_verifier_robustness.csv,present
+required_table,pass,reports/tables/paper_table8_metric_definitions.csv,present
+required_table,pass,reports/tables/paper_table9_release_checklist.csv,present
+required_table,pass,reports/tables/paper_table_math_answer_type_audit.csv,present
+required_figure,pass,reports/figures/paper_figure1_pipeline.png,present
+required_figure,pass,reports/figures/paper_figure1_pipeline.svg,present
+required_figure,pass,reports/figures/paper_figure2_success_by_budget.png,present
+required_figure,pass,reports/figures/paper_figure2_success_by_budget.svg,present
+required_figure,pass,reports/figures/paper_figure3_calibration_by_suite.png,present
+required_figure,pass,reports/figures/paper_figure3_calibration_by_suite.svg,present
+required_figure,pass,reports/figures/paper_figure4_budget_error_distribution.png,present
+required_figure,pass,reports/figures/paper_figure4_budget_error_distribution.svg,present
+required_figure,pass,reports/figures/paper_figure5_calibration_split_baselines.png,present
+required_figure,pass,reports/figures/paper_figure5_calibration_split_baselines.svg,present
+required_figure,pass,reports/figures/paper_figure6_regret.png,present
+required_figure,pass,reports/figures/paper_figure6_regret.svg,present
+required_figure,pass,reports/figures/paper_figure7_cost_coverage.png,present
+required_figure,pass,reports/figures/paper_figure7_cost_coverage.svg,present
+required_figure,pass,reports/figures/paper_figure8_diagnostics.png,present
+required_figure,pass,reports/figures/paper_figure8_diagnostics.svg,present
+forecast_artifacts,pass,reports/artifacts,35 forecast JSONL files
+outcome_artifacts,pass,reports/artifacts,35 outcome JSONL files
+per_run_manifests,pass,reports/artifacts,35 SHA-256 manifests
+metadata,pass,metadata/croissant.json,present
+metadata,pass,CITATION.cff,present
+metadata,pass,LICENSE,present
+release_manifest,pass,reports/release_manifest.json,present
+release_archive,pass,reports/tokencapbench_release_archive.zip,present
+release_archive_sha256_manifest,pass,reports/tokencapbench_release_archive.zip.sha256_manifest.json,present
+release_archive_contents,pass,reports/tokencapbench_release_archive.zip,required release contents present
+croissant_required_fields,pass,metadata/croissant.json,present
+croissant_url,pass,metadata/croissant.json,non-placeholder
+croissant_release_mode,pass,metadata/croissant.json,hosted_urls=0/10; releaseMode=relative_path_archive
+secret_scrub,pass,reports/tables/secret_scrub_audit.csv,present
+secret_scrub_zero_findings,pass,reports/tables/secret_scrub_audit.csv,zero findings
+forecast_leakage_audit,pass,reports/tables/forecast_leakage_audit.csv,present
+optional_repeatability_table,pass,reports/tables/paper_table10_repeatability.csv,present
+optional_repeatability_figure,pass,reports/figures/appendix_repeatability_variance.png,present
+optional_repeatability_figure,pass,reports/figures/appendix_repeatability_variance.svg,present
+optional_fresh_coding_table,pass,reports/tables/paper_table11_fresh_coding.csv,present
+optional_fresh_coding_figure,pass,reports/figures/appendix_fresh_coding.png,present
+optional_fresh_coding_figure,pass,reports/figures/appendix_fresh_coding.svg,present
+main_track_artifacts,pass,reports/artifacts,all main suites have artifacts
+main_metrics_no_official_placeholders,pass,reports/artifacts,no main placeholder labels
+provider_incompatible_tracks_not_main,pass,"data/processed,data/tasks,reports/tables",no incompatible main rows
+fresh_coding_official_claim,pass,reports/tables/paper_table11_fresh_coding.csv,fresh coding not claimed completed
+replacement_required_table,pass,reports/tables/paper_table18_bigcodebench_hard.csv,present
+replacement_required_table,pass,reports/tables/paper_table19_canitedit_descriptive.csv,present
+replacement_required_table,pass,reports/tables/paper_table20_replacement_token_usage_proxy.csv,present
+replacement_required_table,pass,reports/tables/paper_table21_replacement_fixed_budget_scheduling.csv,present
+replacement_required_figure,pass,reports/figures/paper_figure11_bigcodebench_hard_success_by_budget.png,present
+replacement_required_figure,pass,reports/figures/paper_figure11_bigcodebench_hard_success_by_budget.svg,present
+replacement_required_figure,pass,reports/figures/paper_figure12_canitedit_descriptive_success_by_budget.png,present
+replacement_required_figure,pass,reports/figures/paper_figure12_canitedit_descriptive_success_by_budget.svg,present
+replacement_required_figure,pass,reports/figures/paper_figure13_replacement_token_proxy_vs_success.png,present
+replacement_required_figure,pass,reports/figures/paper_figure13_replacement_token_proxy_vs_success.svg,present
+replacement_required_figure,pass,reports/figures/paper_figure14_replacement_allocation_frontier.png,present
+replacement_required_figure,pass,reports/figures/paper_figure14_replacement_allocation_frontier.svg,present
+replacement_bigcodebench_official_status,pass,reports/tables/paper_table18_bigcodebench_hard.csv,statuses=['official_labels_completed']
+replacement_canitedit_pass_fail_labels,pass,reports/tables/paper_table19_canitedit_descriptive.csv,statuses=['completed']
+replacement_token_proxy_coverage_reported,pass,reports/tables/paper_table20_replacement_token_usage_proxy.csv,coverage column present
+replacement_fixed_budget_policies,pass,reports/tables/paper_table21_replacement_fixed_budget_scheduling.csv,"policies=['constant-by-budget prior', 'oracle', 'random task order', 'raw self-forecast', 'recalibrated self-forecast', 'source-by-budget prior']"
+replacement_swe_appendix_only,pass,reports/tables/appendix_swe_official_mini.csv,SWE mini is appendix/infrastructure unless completed
+clean_evidence_scope,pass,reports/tables/paper_table_clean_evidence_scope.csv,six clean paper-facing rows
+strict_fixed_budget_scheduling,pass,reports/tables/paper_table15_fixed_budget_scheduling.csv,strict rows feasible
+strict_fixed_budget_scheduling,pass,reports/tables/paper_table21_replacement_fixed_budget_scheduling.csv,strict rows feasible
+paper_report_scope,pass,reports/paper_results_report.md,not present

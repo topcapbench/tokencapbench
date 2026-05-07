@@ -1,0 +1,2 @@
+suite,local_tasks_available,models,budget_grid,estimated_cost_usd,cap_usd,run_status,budget_control,paper_role,notes
+paper_agentic_swe_bridge,5,gemini-2.0-flash-lite-001,"4096,16384",0.033298,20.0,skipped_missing_BUDGET2SUCCESS_GATEWAY_API_KEY,generated_token_cap_pilot,appendix_bridge_only,Not part of the main claim; full agentic total-token budget control remains future work.

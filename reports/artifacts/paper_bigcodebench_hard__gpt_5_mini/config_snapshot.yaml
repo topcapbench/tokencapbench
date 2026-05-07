@@ -1,0 +1,44 @@
+run_id: gpt_5_mini
+task_file: data/processed/paper_bigcodebench_hard.jsonl
+output_dir: reports/artifacts_bigcodebench_official/paper_bigcodebench_hard
+provider: chat_gateway
+model: gpt-5-mini
+scaffold: direct_code_generation
+forecast_prompt: prompts/forecast_prompt.md
+solver_prompts:
+  coding: prompts/solve_coding_prompt.md
+budget_grid:
+  coding:
+  - 128
+  - 256
+  - 512
+  - 1024
+  - 2048
+  - 4096
+  default:
+  - 128
+  - 256
+  - 512
+  - 1024
+  - 2048
+  - 4096
+temperature: 0.0
+max_forecast_tokens: 1200
+limit: null
+forecast_only: false
+metadata:
+  cost_cap_usd: 35.0
+  paper_role: paper_extension_candidate
+  chat_completion_compatible: true
+  requires_docker: false
+  replacement_track: bigcodebench_hard
+  official_labels_required: true
+  defer_verification: true
+  suite_name: paper_bigcodebench_hard
+  model_slug: gpt_5_mini
+  prompt_variant_index: 1
+  prompt_variant_path: prompts/forecast_prompt.md
+  official_harness_status: official_labels_completed
+  official_label_source: bigcodebench
+  source_run_dir: reports/runs/paper_bigcodebench_hard/gpt_5_mini
+endpoint: /chat/completions

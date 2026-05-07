@@ -1,0 +1,9 @@
+{
+  "note": "Estimated from provider usage fields and public/proxy rates; not a provider invoice.",
+  "rows": 26,
+  "total_completion_tokens": 1462183,
+  "total_estimated_usage_cost_usd": 4.664935,
+  "total_forecast_calls": 3955,
+  "total_prompt_tokens": 4375471,
+  "total_solver_calls": 4810
+}

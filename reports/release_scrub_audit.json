@@ -1,0 +1,7 @@
+{
+  "artifact_root": "artifacts,reports/artifacts,metadata,reports/tables,configs,prompts",
+  "dry_run": false,
+  "files_scanned": 503,
+  "findings": [],
+  "status": "PASS"
+}

@@ -1,0 +1,7 @@
+source: swebench
+split: test
+limit: 100
+budget_grid: [4096, 8192, 16384, 32768, 65536]
+kwargs:
+  dataset: SWE-bench/SWE-bench_Verified
+role: repository-level software engineering track

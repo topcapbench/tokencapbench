@@ -1,0 +1,2 @@
+timestamp,pytest_status,pytest_summary,submission_validation_status,n_main_artifact_runs,n_main_forecast_rows,n_main_outcome_rows,n_livecodebench_200_rows,n_forecast_stability_rows,n_token_usage_proxy_rows,notes
+2026-05-01T17:14:41.968362+00:00,pass,"107 passed, 1 warning in 29.33s",pass,42,7633,39203,4,5,12,Counts include packaged artifact JSONL files under reports/artifacts; token-usage count prefers the expanded 300-task table when present.

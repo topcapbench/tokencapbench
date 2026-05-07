@@ -1,0 +1,44 @@
+run_id: deepseek_v3_0324__forecast_repeat_1__solver_repeat_1
+task_file: data/processed/paper_repeatability_small.jsonl
+output_dir: reports/runs/paper_repeatability_small
+provider: provider
+model: DeepSeek-V3-0324
+scaffold: direct
+forecast_prompt: prompts/forecast_prompt.md
+solver_prompts:
+  math: prompts/solve_math_prompt.md
+  coding: prompts/solve_coding_prompt.md
+budget_grid:
+  default:
+  - 256
+  - 1024
+  - 2048
+  math:
+  - 128
+  - 512
+  - 2048
+  coding:
+  - 256
+  - 1024
+  - 2048
+temperature: 0.0
+max_forecast_tokens: 900
+limit: 100
+forecast_only: false
+metadata:
+  paper_role: repeatability
+  completed_models:
+  - gemini-2.0-flash-lite-001
+  - gemini-2.0-flash-001
+  - DeepSeek-V3-0324
+  cost_cap_usd: 20
+  run_status: completed_live_api
+  suite_name: paper_repeatability_small
+  model_slug: deepseek_v3_0324
+  prompt_variant_index: 1
+  prompt_variant_path: prompts/forecast_prompt.md
+  forecast_repeat_index: 1
+  solver_repeat_index: 1
+  repeat_index: 1001
+  repeat_ids:
+  - forecast_1__solver_1

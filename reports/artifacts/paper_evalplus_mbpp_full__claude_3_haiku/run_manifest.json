@@ -1,0 +1,146 @@
+{
+  "artifact_hashes": {
+    "config_snapshot.yaml": "f2929e2321313bdd65ada3152a1b339c99593406cf6e30ef72935ff6a343e32f",
+    "forecasts.jsonl": "a99f0d3b4914cc45fa0d04a5f47db8f735120a02452923ab444b5d63667c0928",
+    "metrics.json": "45f85b5ffb1a9a01c083e8dc76dc814e06d828defd85db8617e2bfc8eec9473d",
+    "outcomes.jsonl": "122f77a46b7f7083af38b8b7450a5347402639367dee840beee14d8c08f9cfbd",
+    "source_config_snapshot.yaml": "f2929e2321313bdd65ada3152a1b339c99593406cf6e30ef72935ff6a343e32f",
+    "task_file_hash.json": "67c8a8bebd204a00364f9ca4ea1759eaa9d0ffb65e53cca0894494b37b9df490"
+  },
+  "artifact_id": "paper_evalplus_mbpp_full__claude_3_haiku",
+  "budget_grids": {
+    "coding": [
+      64,
+      128,
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "default": [
+      64,
+      128,
+      256,
+      512,
+      1024,
+      2048
+    ]
+  },
+  "code_commit": "2410bee838921f4a50c01ab7d9cee186f1af5778",
+  "command_line_arguments": [
+    "--run-dir",
+    "reports/runs/paper_evalplus_mbpp_full/claude_3_haiku"
+  ],
+  "config": {
+    "budget_grid": {
+      "coding": [
+        64,
+        128,
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "default": [
+        64,
+        128,
+        256,
+        512,
+        1024,
+        2048
+      ]
+    },
+    "defer_verification": true,
+    "forecast_only": false,
+    "forecast_prompt": "prompts/forecast_prompt.md",
+    "limit": null,
+    "max_forecast_tokens": 900,
+    "metadata": {
+      "cost_cap_usd": 20,
+      "defer_verification": true,
+      "model_slug": "claude_3_haiku",
+      "paper_role": "main_coding_mbpp",
+      "prompt_variant_index": 1,
+      "prompt_variant_path": "prompts/forecast_prompt.md",
+      "suite_name": "paper_evalplus_mbpp_full"
+    },
+    "model": "claude-3-haiku",
+    "output_dir": "reports/runs/paper_evalplus_mbpp_full",
+    "provider": "provider",
+    "run_id": "claude_3_haiku",
+    "scaffold": "direct",
+    "solver_prompts": {
+      "agentic": "prompts/solve_agentic_prompt.md",
+      "coding": "prompts/solve_coding_prompt.md",
+      "math": "prompts/solve_math_prompt.md",
+      "swe": "prompts/solve_swe_prompt.md"
+    },
+    "task_file": "data/processed/paper_evalplus_mbpp_full.jsonl",
+    "temperature": 0.0
+  },
+  "created_utc": "2026-05-04T01:25:42.154417+00:00",
+  "dataset": {
+    "budget_grids_by_source": {
+      "evalplus_mbpp": [
+        [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ]
+      ]
+    },
+    "exists": true,
+    "path": "data/processed/paper_evalplus_mbpp_full.jsonl",
+    "sha256": "810fceb3b7c8bb302b18cb83035575c5b1b613a12ac7167ee8e70855d3a844de",
+    "sources": {
+      "evalplus_mbpp": {
+        "source_versions": [
+          "evalplus"
+        ],
+        "tasks": 378,
+        "tracks": [
+          "coding"
+        ],
+        "verifiers": [
+          "evalplus"
+        ]
+      }
+    },
+    "tasks": 378
+  },
+  "model_ids": [
+    "claude-3-haiku"
+  ],
+  "packaging_note": "No environment variables or secrets are copied.",
+  "phase": "packaged",
+  "prompt_hashes": {
+    "forecast": {
+      "path": "prompts/forecast_prompt.md",
+      "sha256": "82e2dcd0c508f9b6a98a3d5b943839de419509454372f54aac1ed5e2da1940ba"
+    },
+    "solver_agentic": {
+      "path": "prompts/solve_agentic_prompt.md",
+      "sha256": "0aee964d4a60992da32cc82b2989e4a4210f3f4bcc6104fb8e345b32d15dbfbf"
+    },
+    "solver_coding": {
+      "path": "prompts/solve_coding_prompt.md",
+      "sha256": "747e63037dbac2c5fe94f41407fd29e02b5dc0c446177c6ee16d1a6c152ab061"
+    },
+    "solver_math": {
+      "path": "prompts/solve_math_prompt.md",
+      "sha256": "0ceb852214192dba095e0ece5179fd333440763b60383d2382cac6b2138c4d49"
+    },
+    "solver_swe": {
+      "path": "prompts/solve_swe_prompt.md",
+      "sha256": "9f764db3b79e7ba8fd80f4c168a4b2cb0572240bae71c5ab168455aea757098a"
+    }
+  },
+  "provider": "provider",
+  "run_id": "claude_3_haiku",
+  "scaffold": "direct",
+  "schema_version": 1,
+  "source_run_dir": "reports/runs/paper_evalplus_mbpp_full/claude_3_haiku"
+}

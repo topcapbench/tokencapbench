@@ -1,0 +1,7 @@
+policy,avg_successes,avg_regret_to_oracle,avg_budget_slack,overspend_violations
+max budget,73.2,147.8,31659,0
+random,78.4,142.7,31147,0
+raw self-forecast,150.2,70.9,31147,0
+recalibrated self-forecast,147.6,73.5,47563,0
+best prior,137.2,83.8,49600,0
+oracle,221.1,0.0,80763,0

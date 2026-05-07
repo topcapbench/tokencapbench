@@ -1,0 +1,20 @@
+
+\begin{table}[t]
+\centering
+\small
+\caption{\bench relative to neighboring evaluation problems. The central target is a pre-execution forecast of verifier-backed success under imposed generation budgets.}
+\label{tab:related}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lccccp{5.2cm}}
+\toprule
+Setting & Pre-exec. & Verified & Budget curve & Same task & What is missing for our target \\
+\midrule
+Verifier-backed task benchmarks & no & yes & no & yes & Measure solved/not-solved at fixed settings, not forecasts over budget interventions. \\
+Confidence calibration / self-knowledge & yes & mixed & no & yes & Estimate correctness or uncertainty, but not success conditioned on explicit token caps. \\
+Token-use or response-length prediction & yes & no & no & yes & Predict consumption of an unconstrained or served run, not verified success under a controlled cap. \\
+Token-budgeting and test-time compute methods & sometimes & yes & sometimes & yes & Optimize or adapt spending, but do not benchmark pre-execution success-curve calibration. \\
+\textbf{\bench} & \textbf{yes} & \textbf{yes} & \textbf{yes} & \textbf{yes} & \textbf{Forecasts and solve attempts are separated; each imposed budget is independently verified.} \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

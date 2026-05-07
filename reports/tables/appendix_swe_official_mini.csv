@@ -1,0 +1,2 @@
+suite,model,n_tasks,budget_grid,official_harness_status,official_labels,official_label_errors,success_at_max_budget,brier,ece,regret,estimated_cost_usd,cap_usd,notes
+paper_swe_verified_mini_official,,20,"4096,16384",configured_not_run,0,0,,,,,1.649294,45.0,Appendix infrastructure only: SWE-bench Verified mini bridge is not a main result without official labels.

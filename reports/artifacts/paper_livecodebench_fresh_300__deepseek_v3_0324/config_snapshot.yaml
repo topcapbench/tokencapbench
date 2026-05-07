@@ -1,0 +1,39 @@
+run_id: deepseek_v3_0324
+task_file: data/processed/paper_livecodebench_fresh_300.jsonl
+output_dir: reports/runs/paper_livecodebench_fresh_300
+provider: chat_gateway
+model: DeepSeek-V3-0324
+scaffold: direct_code_generation
+forecast_prompt: prompts/forecast_prompt.md
+solver_prompts:
+  coding: prompts/solve_coding_prompt.md
+budget_grid:
+  coding:
+  - 64
+  - 128
+  - 256
+  - 512
+  - 1024
+  - 2048
+  default:
+  - 64
+  - 128
+  - 256
+  - 512
+  - 1024
+  - 2048
+temperature: 0.0
+max_forecast_tokens: 1200
+limit: null
+forecast_only: false
+metadata:
+  cost_cap_usd: 15.0
+  paper_role: freshness_appendix
+  chat_completion_compatible: true
+  requires_docker: false
+  defer_verification: true
+  suite_name: paper_livecodebench_fresh_300
+  model_slug: deepseek_v3_0324
+  prompt_variant_index: 1
+  prompt_variant_path: prompts/forecast_prompt.md
+endpoint: /chat/completions

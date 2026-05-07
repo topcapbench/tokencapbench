@@ -1,0 +1,26 @@
+suite_name: paper_bfcl_small_real
+task_file: data/processed/paper_bfcl_lite.jsonl
+output_root: reports/runs
+provider: provider
+models:
+  - gemini-2.0-flash-lite-001
+scaffold: direct
+forecast_prompt: prompts/forecast_prompt.md
+solver_prompts:
+  math: prompts/solve_math_prompt.md
+  coding: prompts/solve_coding_prompt.md
+  swe: prompts/solve_swe_prompt.md
+  agentic: prompts/solve_agentic_prompt.md
+budget_grid:
+  default: [256, 512, 1024, 2048, 4096]
+  agentic: [256, 512, 1024, 2048, 4096]
+temperature: 0.0
+max_forecast_tokens: 900
+limit: 50
+metadata:
+  paper_role: future_work
+  chat_completion_compatible: false
+  infrastructure_only: true
+  verifier_requirement: bfcl_official
+  cost_cap_usd: 40
+  run_status: configured_not_run

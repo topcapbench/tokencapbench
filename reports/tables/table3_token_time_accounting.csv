@@ -1,0 +1,7 @@
+field,definition,primary_for
+budget,hard generated-token cap passed to the model API or external harness,math and standalone coding budget grids
+completion_tokens,provider-reported visible generated tokens when available,paper budget2success accounting
+prompt_tokens,provider-reported input tokens for the forecast or solver call,secondary accounting and cost analysis
+total_tokens,provider-reported total billable tokens when available,secondary provider cost accounting
+reasoning_tokens,provider-reported hidden reasoning tokens when exposed,reported separately; not mixed with visible generated tokens
+wall_time_seconds,runner-measured elapsed wall-clock time around the generation call,agentic and SWE timing extensions

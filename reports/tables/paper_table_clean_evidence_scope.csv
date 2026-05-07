@@ -1,0 +1,7 @@
+track,source,tasks,models,verifier,role
+math,GSM8K + MATH,1000,4,numeric/symbolic,core evidence
+coding,HumanEval+ + MBPP+,542,4,EvalPlus,core evidence
+hard coding,BigCodeBench-Hard,148,5,official BigCodeBench package,main extension
+code editing,CanItEdit,105,4,provided tests,editing bridge
+fresh coding,LiveCodeBench-300,300,2,official LiveCodeBench labels,appendix freshness
+stability,prompt variants,150,2+,frozen verifier outcomes,appendix stability

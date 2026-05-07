@@ -1,0 +1,27 @@
+suite_name: paper_canitedit_descriptive
+provider: chat_gateway
+endpoint: /chat/completions
+output_root: reports/runs
+scaffold: direct_code_edit
+forecast_prompt: prompts/forecast_prompt.md
+solver_prompts:
+  code_editing: prompts/solve_code_editing_prompt.md
+task_file: data/processed/paper_canitedit_descriptive.jsonl
+temperature: 0.0
+max_forecast_tokens: 1200
+limit: null
+models:
+  - gemini-2.0-flash-001
+  - DeepSeek-V3-0324
+  - gemini-2.0-flash-lite-001
+  - claude-3-haiku
+metadata:
+  cost_cap_usd: 18.0
+  paper_role: paper_extension
+  chat_completion_compatible: true
+  requires_docker: false
+  replacement_track: canitedit
+  instruction_style: descriptive
+budget_grid:
+  code_editing: [128, 256, 512, 1024, 2048]
+  default: [128, 256, 512, 1024, 2048]

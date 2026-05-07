@@ -1,0 +1,23 @@
+suite_name: paper_aider_polyglot
+task_file: data/tasks/paper_aider_polyglot_python.jsonl
+output_root: reports/runs
+provider: provider
+models:
+  - gemini-2.0-flash-lite-001
+scaffold: edit_json
+forecast_prompt: prompts/forecast_success_and_usage_prompt.md
+solver_prompts:
+  coding_edit: prompts/solve_code_edit_json_prompt.md
+budget_grid:
+  default: [512, 1024, 2048, 4096]
+  coding_edit: [512, 1024, 2048, 4096]
+temperature: 0.0
+max_forecast_tokens: 900
+limit: 75
+metadata:
+  paper_role: future_work
+  chat_completion_compatible: false
+  infrastructure_only: true
+  verifier_requirement: aider_polyglot_tests
+  cost_cap_usd: 15
+  run_status: api_continuity_model

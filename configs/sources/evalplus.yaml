@@ -1,0 +1,7 @@
+source: evalplus
+split: test
+limit: 300
+budget_grid: [512, 1024, 2048, 4096, 8192]
+kwargs:
+  dataset: humaneval
+role: coding sanity track

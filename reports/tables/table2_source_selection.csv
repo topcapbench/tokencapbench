@@ -1,0 +1,13 @@
+track,source_benchmark,official_codebase_or_package,verifier,adaptation_effort,selected,role_in_paper
+math,GSM8K,openai/grade-school-math or HF openai/gsm8k,numeric exact answer,low,yes,pilot and calibration sanity track
+math,MATH / MATH-500,hendrycks/math or HF hendrycks/competition_math,boxed answer / optional math-verify,medium,yes,main math reasoning track
+reasoning,BIG-Bench exact subsets,google/BIG-bench or lm-evaluation-harness,task-specific exact answer,medium,optional appendix,exact-answer robustness only
+coding,HumanEval+ / MBPP+,evalplus/evalplus,official EvalPlus tests,low,yes,coding sanity and baseline track
+coding,BigCodeBench,bigcode-project/bigcodebench,official unit-test evaluator,medium,yes,main practical coding track
+coding,LiveCodeBench,livecodebench/livecodebench,official contest-style tests,medium,yes if time,fresh contamination-aware coding split
+swe,SWE-bench Verified,swe-bench/SWE-bench and HF SWE-bench/SWE-bench_Verified,official Docker harness,high,yes flagship,repository-level SWE track
+swe,SWE-bench-Live,microsoft/SWE-bench-Live,official/live issue harness,high,optional validation,fresh contamination-resistant SWE split
+agentic,BFCL,Gorilla BFCL,function-call executable checker,medium,optional,lightweight tool/function-calling calibration
+agentic,tau2-bench,sierra-research/tau2-bench,simulator success,high,optional,multi-turn tool-agent-user trace-token calibration
+agentic,AssistantBench,oriyor/assistantbench,automatic web-task answer verifier,high,optional appendix,web-agent token/time calibration
+agentic,WebArena / BrowserGym / OSWorld,official environment repos,environment-specific evaluator,very high,defer,future rich environment extension

@@ -1,0 +1,2 @@
+{"answer": "4", "budget_grid": [128, 256, 512], "metadata": {"source": "toy"}, "prompt": "Compute 2+2.", "source": "toy", "task_id": "math_dev_001", "track": "math", "verifier": "numeric_exact"}
+{"budget_grid": [128, 256, 512], "metadata": {"tests": "assert add_one(0) == 1\nassert add_one(41) == 42"}, "prompt": "Write a Python function add_one(x) that returns x + 1.", "source": "toy", "task_id": "coding_dev_001", "track": "coding", "verifier": "python_unit_test"}

@@ -1,0 +1,6 @@
+source: bfcl
+limit: 200
+budget_grid: [512, 1024, 2048, 4096, 8192]
+kwargs:
+  path: data/raw/bfcl_budget2success_export.jsonl
+role: lightweight function-calling agentic track

@@ -1,0 +1,143 @@
+{
+  "artifact_hashes": {
+    "config_snapshot.yaml": "335dd12d4efeae85f20e1137db21cb40d62a2d39c2f67ba2f3dd2125785886b9",
+    "forecasts.jsonl": "3a7e834b14a24a8365fd273ff25bef9a9cccc2fc4612f5631391aba5e2e51b3e",
+    "metrics.json": "64da92c3ed13f92ccd1db7ddbbb9a70426d40b2f1901d8fae618877dceb96bbc",
+    "outcomes.jsonl": "43f726589b8fb2b58507d5b28e95f7a6d2b889ce5dd2fd9890ee70a4c0a06ca1"
+  },
+  "budget_grids": {
+    "coding": [
+      128,
+      256,
+      512,
+      1024,
+      2048,
+      4096
+    ],
+    "default": [
+      128,
+      256,
+      512,
+      1024,
+      2048,
+      4096
+    ]
+  },
+  "code_commit": "2410bee838921f4a50c01ab7d9cee186f1af5778",
+  "command_line_arguments": [
+    "--task-file",
+    "data/processed/paper_bigcodebench_hard.jsonl",
+    "--run-root",
+    "reports/runs/paper_bigcodebench_hard",
+    "--output-root",
+    "reports/artifacts_bigcodebench_official/paper_bigcodebench_hard",
+    "--command-template",
+    "official-package-direct",
+    "--timeout-seconds",
+    "7200"
+  ],
+  "config": {
+    "budget_grid": {
+      "coding": [
+        128,
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ],
+      "default": [
+        128,
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "endpoint": "/chat/completions",
+    "forecast_only": false,
+    "forecast_prompt": "prompts/forecast_prompt.md",
+    "limit": null,
+    "max_forecast_tokens": 1200,
+    "metadata": {
+      "chat_completion_compatible": true,
+      "cost_cap_usd": 35.0,
+      "defer_verification": true,
+      "model_slug": "gemini_2_0_flash_001",
+      "official_harness_status": "official_labels_completed",
+      "official_label_source": "bigcodebench",
+      "official_labels_required": true,
+      "paper_role": "paper_extension_candidate",
+      "prompt_variant_index": 1,
+      "prompt_variant_path": "prompts/forecast_prompt.md",
+      "replacement_track": "bigcodebench_hard",
+      "requires_docker": false,
+      "source_run_dir": "reports/runs/paper_bigcodebench_hard/gemini_2_0_flash_001",
+      "suite_name": "paper_bigcodebench_hard"
+    },
+    "model": "gemini-2.0-flash-001",
+    "output_dir": "reports/artifacts_bigcodebench_official/paper_bigcodebench_hard",
+    "provider": "chat_gateway",
+    "run_id": "gemini_2_0_flash_001",
+    "scaffold": "direct_code_generation",
+    "solver_prompts": {
+      "coding": "prompts/solve_coding_prompt.md"
+    },
+    "task_file": "data/processed/paper_bigcodebench_hard.jsonl",
+    "temperature": 0.0
+  },
+  "created_utc": "2026-05-04T02:47:46.419148+00:00",
+  "dataset": {
+    "budget_grids_by_source": {
+      "bigcodebench_hard": [
+        [
+          128,
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      ]
+    },
+    "exists": true,
+    "path": "data/processed/paper_bigcodebench_hard.jsonl",
+    "sha256": "c0c17ffe068511aed4787a07e8c44663813755251c86612747bd48bc82e76307",
+    "sources": {
+      "bigcodebench_hard": {
+        "source_versions": [
+          "bigcodebench-package"
+        ],
+        "tasks": 148,
+        "tracks": [
+          "coding"
+        ],
+        "verifiers": [
+          "bigcodebench"
+        ]
+      }
+    },
+    "tasks": 148
+  },
+  "model_ids": [
+    "gemini-2.0-flash-001"
+  ],
+  "phase": "bigcodebench_official_labels",
+  "prompt_hashes": {
+    "forecast": {
+      "path": "prompts/forecast_prompt.md",
+      "sha256": "82e2dcd0c508f9b6a98a3d5b943839de419509454372f54aac1ed5e2da1940ba"
+    },
+    "solver_coding": {
+      "path": "prompts/solve_coding_prompt.md",
+      "sha256": "747e63037dbac2c5fe94f41407fd29e02b5dc0c446177c6ee16d1a6c152ab061"
+    }
+  },
+  "provider": "chat_gateway",
+  "run_id": "gemini_2_0_flash_001",
+  "scaffold": "direct_code_generation",
+  "schema_version": 1,
+  "source_run_dir": "reports/runs/paper_bigcodebench_hard/gemini_2_0_flash_001",
+  "task_file": "data/processed/paper_bigcodebench_hard.jsonl"
+}

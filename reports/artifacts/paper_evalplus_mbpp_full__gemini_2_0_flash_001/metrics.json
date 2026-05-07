@@ -1,0 +1,20 @@
+{
+  "brier": 0.4602922839506173,
+  "censored_lower_bound_error": 1.852986323758913,
+  "censoring_rate": 0.8968253968253969,
+  "ece": 0.5355335097001763,
+  "max_budget_failure_rate": 0.9047619047619048,
+  "mean_completion_tokens": 108.19787516600266,
+  "mean_log_token_error": 0.7579673259719417,
+  "mean_overbudget_ratio": 2.2291666666666665,
+  "mean_regret": 0.007936507936507936,
+  "mean_wall_time_seconds": 1.283452305499169,
+  "n_budget_observations": 2268,
+  "n_forecasts": 378,
+  "n_outcome_tasks": 378,
+  "overbudget_ratio": 2.2291666666666665,
+  "pairwise_ttg_ranking_accuracy": 0.4757085020242915,
+  "regret": 0.007936507936507936,
+  "solved_only_log_ttg_error": 0.7579673259719417,
+  "underbudget_rate": 0.07692307692307693
+}

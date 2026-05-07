@@ -1,0 +1,12 @@
+work,target,pre_execution_forecast,verified_success,token_budget_curve,multi_domain,benchmark_artifact,novelty_pressure
+Can LLMs Perceive Time?,duration estimates,yes,no/no broad verifier,no,limited,empirical study,medium for timing-only
+Response Length Perception,response length for scheduling,yes,no,no,serving workloads,method/eval,high for raw length
+ForeLen,output length prediction,yes,no,no,length datasets,benchmark,very high for raw length
+TALE,token-budget-aware reasoning,yes for budget estimate,yes mostly math,no or limited,math/reasoning,method,high for math-only budget estimate
+SelfBudgeter,self-estimated reasoning budget,yes,yes mostly math,no or limited,math/reasoning,method,high for self-budget math
+Token Complexity,minimum reasoning length,after-the-fact/analysis,yes,implicit,math,analysis,high for minimum-token math framing
+THINK-Bench,thinking efficiency / overthinking,no,yes,after-the-fact,science/math,benchmark,medium for token-efficiency framing
+OckBench,accuracy and decoding token count,no,yes,after-the-fact,reasoning/coding,benchmark,medium-high for efficiency framing
+Kadavath et al.,answer confidence/self-knowledge,yes/after answer,yes,no,QA/calibration,study,medium for generic self-estimation
+MIRROR,metacognitive calibration,yes,task dependent,no,broad,benchmark,medium-high for self-knowledge framing
+TokenCapBench,token-budget success forecasting,yes,yes,yes,math/code/SWE/agentic,benchmark,proposed

@@ -1,0 +1,17 @@
+check,status,notes
+forecasts_packaged,present,Packaged forecast JSONL artifacts
+outcomes_packaged,present,Packaged outcome JSONL artifacts
+manifest_present,present,Per-run SHA-256 manifests
+readme_present,present,Public README
+benchmark_card,present,Benchmark card
+data_provenance,present,Data provenance note
+reproducing_guide,present,Reproduction guide
+croissant_metadata,present,Croissant metadata
+release_manifest,present,Release manifest
+leakage_audit,present,Forecast leakage audit
+calibration_eval_splits,present,Calibration/evaluation split files
+math_reverification,present,Strict math verifier delta summary
+math_answer_type_audit,present,Math answer-type audit table
+repeatability_audit,present,Repeatability audit table
+secret_scrub_audit,present,Secret scrub audit
+submission_validation,present,Submission package validation audit

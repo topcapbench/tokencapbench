@@ -1,0 +1,5 @@
+{
+  "exists": true,
+  "sha256": "242e9eba15b19bbc5a1d6b9a34726b7673d4cf885485825b91b6b4185c3a6c53",
+  "task_file": "data/processed/paper_evalplus_humaneval_full.jsonl"
+}

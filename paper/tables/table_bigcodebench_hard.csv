@@ -1,0 +1,6 @@
+suite,model,n_tasks,budget_grid,brier,ece,success_at_max_budget,ranking_accuracy,underbudget_rate,overbudget_rate,normalized_regret,estimated_cost_usd,official_harness_status,paper_role
+paper_bigcodebench_hard,claude-3-haiku,148,"128,256,512,1024,2048,4096",0.429972,0.532995,0.101351,0.500000,0.176471,0.764706,0.013514,0.379895,official_labels_completed,main_candidate
+paper_bigcodebench_hard,DeepSeek-V3-0324,148,"128,256,512,1024,2048,4096",0.397883,0.493694,0.114865,0.647564,0.130435,0.695652,0.040541,1.521581,official_labels_completed,main_candidate
+paper_bigcodebench_hard,gemini-2.0-flash-001,148,"128,256,512,1024,2048,4096",0.435916,0.565056,0.000000,,,,0.000000,0.215517,official_labels_completed,main_candidate
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,148,"128,256,512,1024,2048,4096",0.391548,0.506847,0.000000,,,,0.000000,0.152985,official_labels_completed,main_candidate
+paper_bigcodebench_hard,gpt-5-mini,148,"128,256,512,1024,2048,4096",0.469353,0.559231,0.331081,0.505834,0.981481,0.000000,0.033784,1.774042,official_labels_completed,main_candidate

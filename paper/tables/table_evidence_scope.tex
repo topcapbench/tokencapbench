@@ -1,0 +1,21 @@
+
+\begin{table}[t]
+\centering
+\small
+\caption{Evidence scope. Core claims use math and EvalPlus coding. Extension and diagnostic tracks test transfer and resource logging, but are scoped separately from the main claims.}
+\label{tab:evidence}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llrrrll}
+\toprule
+Role & Track & Tasks & Models & Outcome rows & Verifier / labels & Use in paper \\
+\midrule
+Core & GSM8K + MATH & 1000 & 4 & 20000 & numeric / symbolic & main calibration and allocation claims \\
+Core & HumanEval+ + MBPP+ & 542 & 4 & 13008 & EvalPlus unit tests & main calibration and allocation claims \\
+Extension & BigCodeBench-Hard & 148 & 5 & 4440 & package labels & hard practical coding extension \\
+Extension & CanItEdit & 105 & 4 & 2100 & provided tests & code-editing bridge \\
+Appendix & LiveCodeBench-300 & 300 & 2 & 3600 & official labels & freshness check \\
+Diagnostic & timing/SLA subset & 100 & 2 & 3600 & same verifiers as core & resource logging only \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

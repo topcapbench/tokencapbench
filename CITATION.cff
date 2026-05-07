@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use TokenCapBench, please cite the forthcoming benchmark paper."
+title: "TokenCapBench: Forecasting Verified Success Under Token Caps"
+authors:
+  - family-names: "Anonymous"
+    given-names: "TokenCapBench Authors"
+year: 2026
+version: "0.3.0"

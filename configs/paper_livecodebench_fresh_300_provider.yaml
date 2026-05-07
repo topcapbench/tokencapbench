@@ -1,0 +1,24 @@
+suite_name: paper_livecodebench_fresh_300
+provider: chat_gateway
+endpoint: /chat/completions
+output_root: reports/runs
+scaffold: direct_code_generation
+forecast_prompt: prompts/forecast_prompt.md
+solver_prompts:
+  coding: prompts/solve_coding_prompt.md
+task_file: data/processed/paper_livecodebench_fresh_300.jsonl
+temperature: 0.0
+max_forecast_tokens: 1200
+limit: null
+models:
+  - gemini-2.0-flash-001
+  - DeepSeek-V3-0324
+metadata:
+  cost_cap_usd: 15.0
+  paper_role: freshness_appendix
+  chat_completion_compatible: true
+  requires_docker: false
+  defer_verification: true
+budget_grid:
+  coding: [64, 128, 256, 512, 1024, 2048]
+  default: [64, 128, 256, 512, 1024, 2048]

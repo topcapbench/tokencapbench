@@ -1,0 +1,85 @@
+\section*{NeurIPS Paper Checklist}
+
+\begin{enumerate}
+
+\item {\bf Claims}
+    \item[] Question: Do the main claims made in the abstract and introduction accurately reflect the paper's contributions and scope?
+    \item[] Answer: \answerYes{}.
+    \item[] Justification: The abstract and introduction state the benchmark protocol, the verifier-backed evidence scope, and the limits of raw self-forecast calibration.
+
+\item {\bf Limitations}
+    \item[] Question: Does the paper discuss the limitations of the work performed by the authors?
+    \item[] Answer: \answerYes{}.
+    \item[] Justification: The Limitations section covers public benchmark contamination, verifier coverage, hidden reasoning compute, provider/tokenizer cap dependence, and timing variability.
+
+\item {\bf Theory assumptions and proofs}
+    \item[] Question: For each theoretical result, does the paper provide the full set of assumptions and a complete proof?
+    \item[] Answer: \answerNA{}.
+    \item[] Justification: The paper introduces and evaluates a benchmark protocol; it does not claim new theoretical results.
+
+\item {\bf Experimental result reproducibility}
+    \item[] Question: Does the paper disclose the information needed to reproduce the main experimental results?
+    \item[] Answer: \answerYes{}.
+    \item[] Justification: The repository includes task snapshots, prompts, schemas, canonical row-level forecast/outcome artifacts, metric code, and regeneration scripts.
+
+\item {\bf Open access to data and code}
+    \item[] Question: Does the paper provide open access to the data and code, with sufficient instructions to reproduce the main experimental results?
+    \item[] Answer: \answerYes{}.
+    \item[] Justification: The release archive contains the code, compact tables and figures, external artifact manifest, Croissant metadata, and canonical row-level artifacts. Anonymous hosted URL assignment remains author-owned.
+
+\item {\bf Experimental setting/details}
+    \item[] Question: Does the paper specify the experimental setting details necessary to understand the results?
+    \item[] Answer: \answerYes{}.
+    \item[] Justification: The protocol, budget grids, forecast/solve separation, verifier-backed task sources, calibration split, and strict allocation setting are described in the paper and artifact docs.
+
+\item {\bf Experiment statistical significance}
+    \item[] Question: Does the paper report error bars or other appropriate information about statistical significance?
+    \item[] Answer: \answerYes{}.
+    \item[] Justification: Tables report bootstrap intervals where available. The regenerated Figure 2 caption explicitly states that confidence bands are omitted for direct row-level success curves.
+
+\item {\bf Experiments compute resources}
+    \item[] Question: Does the paper provide sufficient information on compute resources needed to reproduce the experiments?
+    \item[] Answer: \answerYes{}.
+    \item[] Justification: The artifact logs generated-token caps, token usage fields, retry counts, wall-clock timing, and cost/runtime summaries; timing is scoped as diagnostic rather than a provider benchmark.
+
+\item {\bf Code of ethics}
+    \item[] Question: Does the research conform with the NeurIPS Code of Ethics?
+    \item[] Answer: \answerYes{}.
+    \item[] Justification: The work evaluates benchmark artifacts and model outputs on public/verifier-backed tasks without human subjects or sensitive personal data collection.
+
+\item {\bf Broader impacts}
+    \item[] Question: Does the paper discuss positive and negative societal impacts?
+    \item[] Answer: \answerYes{}.
+    \item[] Justification: The Broader impact section discusses transparent budget-aware decision support and the risk of treating noisy forecasts as guarantees.
+
+\item {\bf Safeguards}
+    \item[] Question: Does the paper describe safeguards for responsible release of high-risk data or models?
+    \item[] Answer: \answerNA{}.
+    \item[] Justification: The paper releases benchmark artifacts and code, not a model or high-risk scraped dataset; release metadata and secret-scrub checks are included.
+
+\item {\bf Licenses for existing assets}
+    \item[] Question: Are existing assets properly credited and are license and terms of use mentioned?
+    \item[] Answer: \answerYes{}.
+    \item[] Justification: The paper cites the underlying benchmark sources and the repository includes license, citation, benchmark card, data provenance, Croissant metadata, and release manifests.
+
+\item {\bf New assets}
+    \item[] Question: Are new assets introduced in the paper documented and provided alongside the assets?
+    \item[] Answer: \answerYes{}.
+    \item[] Justification: TokenCapBench artifacts are documented through the README, benchmark card, data provenance note, reproduction guide, Croissant metadata, and release manifests.
+
+\item {\bf Crowdsourcing and research with human subjects}
+    \item[] Question: For crowdsourcing experiments and research with human subjects, does the paper include the required participant information?
+    \item[] Answer: \answerNA{}.
+    \item[] Justification: The work does not involve crowdsourcing experiments or human subjects research.
+
+\item {\bf Institutional review board approvals or equivalent for research with human subjects}
+    \item[] Question: Does the paper describe risks, disclosures, and approvals for human subjects research?
+    \item[] Answer: \answerNA{}.
+    \item[] Justification: The work does not involve human subjects research.
+
+\item {\bf Declaration of LLM usage}
+    \item[] Question: Does the paper describe LLM usage if it is an important or non-standard component of the research?
+    \item[] Answer: \answerYes{}.
+    \item[] Justification: LLMs are the forecast and solver subjects of the benchmark, and the protocol describes their role and separation.
+
+\end{enumerate}

@@ -1,0 +1,130 @@
+{
+  "artifact_hashes": {
+    "config_snapshot.yaml": "a65cfdaec0d2b69a55c1063860191a7529b5fde201a71fe34d7edac6b7efdde3",
+    "forecasts.jsonl": "0f51bd4c246b5886411c61e605e47b3315f338a9a01c9c193001a3b521af2b91",
+    "metrics.json": "00ec1db4ea713109c4fd10c975bb7635821ff33800570b2fe65129488c80ec19",
+    "outcomes.jsonl": "19505d9dd648e137dea1898c0bfbf3d243b6cf1e127ea16d1c08c07bb07a34c8",
+    "sha256_manifest.json": "73480c66de7f047902beddc85e317660a3d9afcd98b55029ae59a9b0ac576c7a",
+    "source_config_snapshot.yaml": "a65cfdaec0d2b69a55c1063860191a7529b5fde201a71fe34d7edac6b7efdde3",
+    "task_file_hash.json": "69cf8d9533e7879c0dc6ba162a8fea6099cd0afeaad33492bf6af1410f69fdea"
+  },
+  "artifact_id": "paper_canitedit_descriptive__gemini_2_0_flash_001",
+  "budget_grids": {
+    "code_editing": [
+      128,
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "default": [
+      128,
+      256,
+      512,
+      1024,
+      2048
+    ]
+  },
+  "code_commit": "2410bee838921f4a50c01ab7d9cee186f1af5778",
+  "command_line_arguments": [
+    "--run-dir",
+    "reports/runs/paper_canitedit_descriptive/gemini_2_0_flash_001"
+  ],
+  "config": {
+    "budget_grid": {
+      "code_editing": [
+        128,
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "default": [
+        128,
+        256,
+        512,
+        1024,
+        2048
+      ]
+    },
+    "endpoint": "/chat/completions",
+    "forecast_only": false,
+    "forecast_prompt": "prompts/forecast_prompt.md",
+    "limit": null,
+    "max_forecast_tokens": 1200,
+    "metadata": {
+      "chat_completion_compatible": true,
+      "cost_cap_usd": 18.0,
+      "instruction_style": "descriptive",
+      "model_slug": "gemini_2_0_flash_001",
+      "paper_role": "paper_extension",
+      "prompt_variant_index": 1,
+      "prompt_variant_path": "prompts/forecast_prompt.md",
+      "replacement_track": "canitedit",
+      "requires_docker": false,
+      "suite_name": "paper_canitedit_descriptive"
+    },
+    "model": "gemini-2.0-flash-001",
+    "output_dir": "reports/runs/paper_canitedit_descriptive",
+    "provider": "chat_gateway",
+    "run_id": "gemini_2_0_flash_001",
+    "scaffold": "direct_code_edit",
+    "solver_prompts": {
+      "code_editing": "prompts/solve_code_editing_prompt.md"
+    },
+    "task_file": "data/processed/paper_canitedit_descriptive.jsonl",
+    "temperature": 0.0
+  },
+  "created_utc": "2026-05-04T02:11:56.536596+00:00",
+  "dataset": {
+    "budget_grids_by_source": {
+      "canitedit": [
+        [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ]
+      ]
+    },
+    "exists": true,
+    "path": "data/processed/paper_canitedit_descriptive.jsonl",
+    "sha256": "33007251605748fedcef586db51c14725fadd4e865dc09b431d92bbf7429a292",
+    "sources": {
+      "canitedit": {
+        "source_versions": [
+          "nuprl/CanItEdit"
+        ],
+        "tasks": 105,
+        "tracks": [
+          "code_editing"
+        ],
+        "verifiers": [
+          "canitedit"
+        ]
+      }
+    },
+    "tasks": 105
+  },
+  "model_ids": [
+    "gemini-2.0-flash-001"
+  ],
+  "packaging_note": "No environment variables or secrets are copied.",
+  "phase": "packaged",
+  "prompt_hashes": {
+    "forecast": {
+      "path": "prompts/forecast_prompt.md",
+      "sha256": "82e2dcd0c508f9b6a98a3d5b943839de419509454372f54aac1ed5e2da1940ba"
+    },
+    "solver_code_editing": {
+      "path": "prompts/solve_code_editing_prompt.md",
+      "sha256": "4cff0d4216e040931a5e381a83dbc583cc895b6b412b32364406e10d25bbeab8"
+    }
+  },
+  "provider": "chat_gateway",
+  "run_id": "gemini_2_0_flash_001",
+  "scaffold": "direct_code_edit",
+  "schema_version": 1,
+  "source_run_dir": "reports/runs/paper_canitedit_descriptive/gemini_2_0_flash_001"
+}

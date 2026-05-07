@@ -1,0 +1,7 @@
+suite,source,n_tasks,n_calibration,n_evaluation,seed,calibration_frac
+paper_bigcodebench_hard,bigcodebench_hard,148,43,105,20260428,0.3
+paper_canitedit_descriptive,canitedit,105,40,65,20260428,0.3
+paper_evalplus_humaneval_full,evalplus_humaneval,164,49,115,20260428,0.3
+paper_evalplus_mbpp_full,evalplus_mbpp,378,116,262,20260428,0.3
+paper_math_core,gsm8k,500,151,349,20260428,0.3
+paper_math_core,hendrycks_math,500,140,360,20260428,0.3

@@ -1,0 +1,21 @@
+run_id: pilot_mock
+task_file: data/dev/sample_tasks.jsonl
+output_dir: reports/runs
+provider: mock
+model: mock-model
+scaffold: direct
+forecast_prompt: prompts/forecast_prompt.md
+solver_prompts:
+  math: prompts/solve_math_prompt.md
+  coding: prompts/solve_coding_prompt.md
+  swe: prompts/solve_swe_prompt.md
+  agentic: prompts/solve_agentic_prompt.md
+budget_grid:
+  default: [256, 512, 1024]
+  math: [256, 512, 1024]
+  coding: [256, 512, 1024]
+  swe: [1024, 2048]
+  agentic: [256, 512, 1024]
+temperature: 0.0
+max_forecast_tokens: 1000
+limit: null

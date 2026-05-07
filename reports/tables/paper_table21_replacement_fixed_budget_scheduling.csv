@@ -1,0 +1,163 @@
+suite,model,policy,global_budget_fraction,target_total_budget,selected_total_budget,total_budget,verified_successes,oracle_successes,regret_to_oracle,budget_used,budget_slack_tokens,strict_budget_feasible
+paper_bigcodebench_hard,DeepSeek-V3-0324,constant-by-budget prior,0.25,107520,86016,86016,7,14,7,53760,53760,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,constant-by-budget prior,0.50,215040,215040,215040,7,14,7,53760,161280,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,constant-by-budget prior,0.75,322560,301056,301056,7,14,7,53760,268800,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,oracle,0.25,107520,86016,86016,14,14,0,10112,97408,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,oracle,0.50,215040,215040,215040,14,14,0,10112,204928,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,oracle,0.75,322560,301056,301056,14,14,0,10112,312448,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,random task order,0.25,107520,86016,86016,5,14,9,86016,21504,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,random task order,0.50,215040,215040,215040,6,14,8,112768,102272,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,random task order,0.75,322560,301056,301056,6,14,8,112768,209792,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,recalibrated self-forecast,0.25,107520,86016,86016,5,14,9,86016,21504,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,recalibrated self-forecast,0.50,215040,215040,215040,7,14,7,138752,76288,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,recalibrated self-forecast,0.75,322560,301056,301056,7,14,7,138752,183808,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,raw self-forecast,0.25,107520,86016,86016,7,14,7,86016,21504,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,raw self-forecast,0.50,215040,215040,215040,7,14,7,215040,0,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,raw self-forecast,0.75,322560,301056,301056,7,14,7,301056,21504,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,source-by-budget prior,0.25,107520,86016,86016,7,14,7,53760,53760,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,source-by-budget prior,0.50,215040,215040,215040,7,14,7,53760,161280,1
+paper_bigcodebench_hard,DeepSeek-V3-0324,source-by-budget prior,0.75,322560,301056,301056,7,14,7,53760,268800,1
+paper_bigcodebench_hard,claude-3-haiku,constant-by-budget prior,0.25,107520,86016,86016,2,11,9,86016,21504,1
+paper_bigcodebench_hard,claude-3-haiku,constant-by-budget prior,0.50,215040,215040,215040,4,11,7,215040,0,1
+paper_bigcodebench_hard,claude-3-haiku,constant-by-budget prior,0.75,322560,301056,301056,7,11,4,301056,21504,1
+paper_bigcodebench_hard,claude-3-haiku,oracle,0.25,107520,86016,86016,11,11,0,6272,101248,1
+paper_bigcodebench_hard,claude-3-haiku,oracle,0.50,215040,215040,215040,11,11,0,6272,208768,1
+paper_bigcodebench_hard,claude-3-haiku,oracle,0.75,322560,301056,301056,11,11,0,6272,316288,1
+paper_bigcodebench_hard,claude-3-haiku,random task order,0.25,107520,86016,86016,6,11,5,86016,21504,1
+paper_bigcodebench_hard,claude-3-haiku,random task order,0.50,215040,215040,215040,9,11,2,147584,67456,1
+paper_bigcodebench_hard,claude-3-haiku,random task order,0.75,322560,301056,301056,9,11,2,147584,174976,1
+paper_bigcodebench_hard,claude-3-haiku,recalibrated self-forecast,0.25,107520,86016,86016,4,11,7,86016,21504,1
+paper_bigcodebench_hard,claude-3-haiku,recalibrated self-forecast,0.50,215040,215040,215040,10,11,1,207360,7680,1
+paper_bigcodebench_hard,claude-3-haiku,recalibrated self-forecast,0.75,322560,301056,301056,10,11,1,207360,115200,1
+paper_bigcodebench_hard,claude-3-haiku,raw self-forecast,0.25,107520,86016,86016,9,11,2,86016,21504,1
+paper_bigcodebench_hard,claude-3-haiku,raw self-forecast,0.50,215040,215040,215040,10,11,1,215040,0,1
+paper_bigcodebench_hard,claude-3-haiku,raw self-forecast,0.75,322560,301056,301056,9,11,2,301056,21504,1
+paper_bigcodebench_hard,claude-3-haiku,source-by-budget prior,0.25,107520,86016,86016,2,11,9,86016,21504,1
+paper_bigcodebench_hard,claude-3-haiku,source-by-budget prior,0.50,215040,215040,215040,4,11,7,215040,0,1
+paper_bigcodebench_hard,claude-3-haiku,source-by-budget prior,0.75,322560,301056,301056,7,11,4,301056,21504,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,constant-by-budget prior,0.25,107520,86016,86016,0,0,0,13440,94080,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,constant-by-budget prior,0.50,215040,215040,215040,0,0,0,13440,201600,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,constant-by-budget prior,0.75,322560,301056,301056,0,0,0,13440,309120,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,oracle,0.25,107520,86016,86016,0,0,0,0,107520,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,oracle,0.50,215040,215040,215040,0,0,0,0,215040,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,oracle,0.75,322560,301056,301056,0,0,0,0,322560,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,random task order,0.25,107520,86016,86016,0,0,0,86016,21504,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,random task order,0.50,215040,215040,215040,0,0,0,125056,89984,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,random task order,0.75,322560,301056,301056,0,0,0,125056,197504,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,recalibrated self-forecast,0.25,107520,86016,86016,0,0,0,13440,94080,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,recalibrated self-forecast,0.50,215040,215040,215040,0,0,0,13440,201600,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,recalibrated self-forecast,0.75,322560,301056,301056,0,0,0,13440,309120,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,raw self-forecast,0.25,107520,86016,86016,0,0,0,86016,21504,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,raw self-forecast,0.50,215040,215040,215040,0,0,0,215040,0,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,raw self-forecast,0.75,322560,301056,301056,0,0,0,301056,21504,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,source-by-budget prior,0.25,107520,86016,86016,0,0,0,13440,94080,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,source-by-budget prior,0.50,215040,215040,215040,0,0,0,13440,201600,1
+paper_bigcodebench_hard,gemini-2.0-flash-001,source-by-budget prior,0.75,322560,301056,301056,0,0,0,13440,309120,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,constant-by-budget prior,0.25,107520,86016,86016,0,0,0,13440,94080,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,constant-by-budget prior,0.50,215040,215040,215040,0,0,0,13440,201600,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,constant-by-budget prior,0.75,322560,301056,301056,0,0,0,13440,309120,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,oracle,0.25,107520,86016,86016,0,0,0,0,107520,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,oracle,0.50,215040,215040,215040,0,0,0,0,215040,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,oracle,0.75,322560,301056,301056,0,0,0,0,322560,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,random task order,0.25,107520,86016,86016,0,0,0,86016,21504,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,random task order,0.50,215040,215040,215040,0,0,0,119040,96000,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,random task order,0.75,322560,301056,301056,0,0,0,119040,203520,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,recalibrated self-forecast,0.25,107520,86016,86016,0,0,0,13440,94080,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,recalibrated self-forecast,0.50,215040,215040,215040,0,0,0,13440,201600,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,recalibrated self-forecast,0.75,322560,301056,301056,0,0,0,13440,309120,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,raw self-forecast,0.25,107520,86016,86016,0,0,0,86016,21504,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,raw self-forecast,0.50,215040,215040,215040,0,0,0,215040,0,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,raw self-forecast,0.75,322560,301056,301056,0,0,0,301056,21504,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,source-by-budget prior,0.25,107520,86016,86016,0,0,0,13440,94080,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,source-by-budget prior,0.50,215040,215040,215040,0,0,0,13440,201600,1
+paper_bigcodebench_hard,gemini-2.0-flash-lite-001,source-by-budget prior,0.75,322560,301056,301056,0,0,0,13440,309120,1
+paper_bigcodebench_hard,gpt-5-mini,constant-by-budget prior,0.25,107520,86016,86016,10,34,24,86016,21504,1
+paper_bigcodebench_hard,gpt-5-mini,constant-by-budget prior,0.50,215040,215040,215040,25,37,12,215040,0,1
+paper_bigcodebench_hard,gpt-5-mini,constant-by-budget prior,0.75,322560,301056,301056,25,37,12,215040,107520,1
+paper_bigcodebench_hard,gpt-5-mini,oracle,0.25,107520,86016,86016,34,34,0,83968,23552,1
+paper_bigcodebench_hard,gpt-5-mini,oracle,0.50,215040,215040,215040,37,37,0,96256,118784,1
+paper_bigcodebench_hard,gpt-5-mini,oracle,0.75,322560,301056,301056,37,37,0,96256,226304,1
+paper_bigcodebench_hard,gpt-5-mini,random task order,0.25,107520,86016,86016,7,34,27,86016,21504,1
+paper_bigcodebench_hard,gpt-5-mini,random task order,0.50,215040,215040,215040,10,37,27,146816,68224,1
+paper_bigcodebench_hard,gpt-5-mini,random task order,0.75,322560,301056,301056,10,37,27,146816,175744,1
+paper_bigcodebench_hard,gpt-5-mini,recalibrated self-forecast,0.25,107520,86016,86016,5,34,29,86016,21504,1
+paper_bigcodebench_hard,gpt-5-mini,recalibrated self-forecast,0.50,215040,215040,215040,9,37,28,163200,51840,1
+paper_bigcodebench_hard,gpt-5-mini,recalibrated self-forecast,0.75,322560,301056,301056,9,37,28,163200,159360,1
+paper_bigcodebench_hard,gpt-5-mini,raw self-forecast,0.25,107520,86016,86016,3,34,31,86016,21504,1
+paper_bigcodebench_hard,gpt-5-mini,raw self-forecast,0.50,215040,215040,215040,24,37,13,215040,0,1
+paper_bigcodebench_hard,gpt-5-mini,raw self-forecast,0.75,322560,301056,301056,28,37,9,301056,21504,1
+paper_bigcodebench_hard,gpt-5-mini,source-by-budget prior,0.25,107520,86016,86016,10,34,24,86016,21504,1
+paper_bigcodebench_hard,gpt-5-mini,source-by-budget prior,0.50,215040,215040,215040,25,37,12,215040,0,1
+paper_bigcodebench_hard,gpt-5-mini,source-by-budget prior,0.75,322560,301056,301056,25,37,12,215040,107520,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,constant-by-budget prior,0.25,33280,26624,26624,27,46,19,26624,6656,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,constant-by-budget prior,0.50,66560,66560,66560,43,46,3,66560,0,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,constant-by-budget prior,0.75,99840,93184,93184,43,46,3,93184,6656,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,oracle,0.25,33280,26624,26624,46,46,0,24448,8832,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,oracle,0.50,66560,66560,66560,46,46,0,24448,42112,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,oracle,0.75,99840,93184,93184,46,46,0,24448,75392,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,random task order,0.25,33280,26624,26624,19,46,27,26624,6656,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,random task order,0.50,66560,66560,66560,33,46,13,46592,19968,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,random task order,0.75,99840,93184,93184,33,46,13,46592,53248,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,recalibrated self-forecast,0.25,33280,26624,26624,26,46,20,26624,6656,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,recalibrated self-forecast,0.50,66560,66560,66560,38,46,8,66560,0,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,recalibrated self-forecast,0.75,99840,93184,93184,37,46,9,93184,6656,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,raw self-forecast,0.25,33280,26624,26624,26,46,20,26624,6656,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,raw self-forecast,0.50,66560,66560,66560,43,46,3,66048,512,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,raw self-forecast,0.75,99840,93184,93184,43,46,3,92672,7168,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,source-by-budget prior,0.25,33280,26624,26624,27,46,19,26624,6656,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,source-by-budget prior,0.50,66560,66560,66560,43,46,3,66560,0,1
+paper_canitedit_descriptive,DeepSeek-V3-0324,source-by-budget prior,0.75,99840,93184,93184,43,46,3,93184,6656,1
+paper_canitedit_descriptive,claude-3-haiku,constant-by-budget prior,0.25,33280,26624,26624,23,41,18,26624,6656,1
+paper_canitedit_descriptive,claude-3-haiku,constant-by-budget prior,0.50,66560,66560,66560,39,41,2,66560,0,1
+paper_canitedit_descriptive,claude-3-haiku,constant-by-budget prior,0.75,99840,93184,93184,41,41,0,93184,6656,1
+paper_canitedit_descriptive,claude-3-haiku,oracle,0.25,33280,26624,26624,41,41,0,21760,11520,1
+paper_canitedit_descriptive,claude-3-haiku,oracle,0.50,66560,66560,66560,41,41,0,21760,44800,1
+paper_canitedit_descriptive,claude-3-haiku,oracle,0.75,99840,93184,93184,41,41,0,21760,78080,1
+paper_canitedit_descriptive,claude-3-haiku,random task order,0.25,33280,26624,26624,12,41,29,26624,6656,1
+paper_canitedit_descriptive,claude-3-haiku,random task order,0.50,66560,66560,66560,31,41,10,55552,11008,1
+paper_canitedit_descriptive,claude-3-haiku,random task order,0.75,99840,93184,93184,31,41,10,55552,44288,1
+paper_canitedit_descriptive,claude-3-haiku,recalibrated self-forecast,0.25,33280,26624,26624,24,41,17,26624,6656,1
+paper_canitedit_descriptive,claude-3-haiku,recalibrated self-forecast,0.50,66560,66560,66560,39,41,2,66560,0,1
+paper_canitedit_descriptive,claude-3-haiku,recalibrated self-forecast,0.75,99840,93184,93184,39,41,2,66560,33280,1
+paper_canitedit_descriptive,claude-3-haiku,raw self-forecast,0.25,33280,26624,26624,24,41,17,26624,6656,1
+paper_canitedit_descriptive,claude-3-haiku,raw self-forecast,0.50,66560,66560,66560,39,41,2,66560,0,1
+paper_canitedit_descriptive,claude-3-haiku,raw self-forecast,0.75,99840,93184,93184,41,41,0,93184,6656,1
+paper_canitedit_descriptive,claude-3-haiku,source-by-budget prior,0.25,33280,26624,26624,23,41,18,26624,6656,1
+paper_canitedit_descriptive,claude-3-haiku,source-by-budget prior,0.50,66560,66560,66560,39,41,2,66560,0,1
+paper_canitedit_descriptive,claude-3-haiku,source-by-budget prior,0.75,99840,93184,93184,41,41,0,93184,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,constant-by-budget prior,0.25,33280,26624,26624,25,43,18,26624,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,constant-by-budget prior,0.50,66560,66560,66560,39,43,4,66560,0,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,constant-by-budget prior,0.75,99840,93184,93184,40,43,3,93184,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,oracle,0.25,33280,26624,26624,43,43,0,25984,7296,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,oracle,0.50,66560,66560,66560,43,43,0,25984,40576,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,oracle,0.75,99840,93184,93184,43,43,0,25984,73856,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,random task order,0.25,33280,26624,26624,17,43,26,26624,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,random task order,0.50,66560,66560,66560,25,43,18,41600,24960,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,random task order,0.75,99840,93184,93184,25,43,18,41600,58240,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,recalibrated self-forecast,0.25,33280,26624,26624,21,43,22,26624,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,recalibrated self-forecast,0.50,66560,66560,66560,39,43,4,66560,0,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,recalibrated self-forecast,0.75,99840,93184,93184,39,43,4,69120,30720,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,raw self-forecast,0.25,33280,26624,26624,24,43,19,26624,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,raw self-forecast,0.50,66560,66560,66560,39,43,4,66560,0,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,raw self-forecast,0.75,99840,93184,93184,40,43,3,93184,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,source-by-budget prior,0.25,33280,26624,26624,25,43,18,26624,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,source-by-budget prior,0.50,66560,66560,66560,39,43,4,66560,0,1
+paper_canitedit_descriptive,gemini-2.0-flash-001,source-by-budget prior,0.75,99840,93184,93184,40,43,3,93184,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,constant-by-budget prior,0.25,33280,26624,26624,27,46,19,26624,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,constant-by-budget prior,0.50,66560,66560,66560,44,48,4,66560,0,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,constant-by-budget prior,0.75,99840,93184,93184,43,48,5,93184,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,oracle,0.25,33280,26624,26624,46,46,0,25856,7424,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,oracle,0.50,66560,66560,66560,48,48,0,29952,36608,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,oracle,0.75,99840,93184,93184,48,48,0,29952,69888,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,random task order,0.25,33280,26624,26624,15,46,31,26624,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,random task order,0.50,66560,66560,66560,32,48,16,55680,10880,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,random task order,0.75,99840,93184,93184,32,48,16,55680,44160,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,recalibrated self-forecast,0.25,33280,26624,26624,23,46,23,26624,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,recalibrated self-forecast,0.50,66560,66560,66560,32,48,16,66560,0,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,recalibrated self-forecast,0.75,99840,93184,93184,39,48,9,93184,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,raw self-forecast,0.25,33280,26624,26624,19,46,27,26624,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,raw self-forecast,0.50,66560,66560,66560,30,48,18,66560,0,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,raw self-forecast,0.75,99840,93184,93184,36,48,12,93184,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,source-by-budget prior,0.25,33280,26624,26624,27,46,19,26624,6656,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,source-by-budget prior,0.50,66560,66560,66560,44,48,4,66560,0,1
+paper_canitedit_descriptive,gemini-2.0-flash-lite-001,source-by-budget prior,0.75,99840,93184,93184,43,48,5,93184,6656,1

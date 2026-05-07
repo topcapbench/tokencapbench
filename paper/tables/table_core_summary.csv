@@ -1,0 +1,4 @@
+suite,models,success_at_max_range,raw_brier_range,rank_accuracy_range,raw_brier_mean,recalibrated_brier_mean,prior_brier_mean
+HumanEval+,4,0.512-0.854,0.153-0.324,0.468-0.527,0.205,0.165,0.182
+MBPP+,4,0.000-0.664,0.299-0.460,0.276-0.476,0.256,0.191,0.222
+Math core,4,0.529-0.869,0.127-0.255,0.564-0.798,0.184,0.151,0.174

@@ -1,0 +1,5 @@
+work_or_benchmark,target,pre_execution_forecast,verified_success,token_budget_curve,multi_domain,how_tokencapbench_differs
+GSM8K / MATH,math answer correctness,no,yes,no,no,adds calibrated forecasts over hard generated-token budgets
+EvalPlus / coding unit tests,program correctness,no,yes,no,coding,measures probability of verified pass at each cap before execution
+SWE-bench,repository issue resolution,no,yes,no,software engineering,uses SWE as a verifier-backed substrate rather than a new task source
+Raw length prediction,response length,yes,no,sometimes,varies,"target is verified success under budget, not generated length"

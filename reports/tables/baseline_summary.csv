@@ -1,0 +1,19 @@
+suite,forecast_method,baseline_class,runs,n_tasks,n_eval_tasks,mean_brier,mean_ece,mean_regret,notes
+paper_evalplus_humaneval_full,constant_empirical_prior,test_distribution_diagnostic,4,656,656,0.2341566140970981,2.7755575615628914e-17,0.6432926829268293,leave-one-task-out empirical success rate applied at every budget
+paper_evalplus_humaneval_full,output_length_proxy,posthoc_diagnostic,4,656,656,0.16476117886178862,0.12614329268292682,0.1524390243902439,post-hoc output-token proxy; interpret as diagnostic
+paper_evalplus_humaneval_full,prompt_length_empirical,calibration_split_baseline,4,656,656,0.19329695507987693,0.16297424791868184,0.012195121951219513,metadata-only curve from prompt length
+paper_evalplus_humaneval_full,self_forecast,model_forecast_raw,4,656,656,0.19955086382113818,0.15160060975609757,0.012195121951219513,model-provided pre-execution probability curve
+paper_evalplus_humaneval_full,single_budget,calibration_split_baseline,4,656,656,0.22597560975609762,0.13577235772357724,0.01829268292682927,threshold curve at the middle budget
+paper_evalplus_humaneval_full,source_empirical_prior,test_distribution_diagnostic,4,656,656,0.1626990101245813,0.013476357923088449,0.019817073170731704,leave-one-task-out empirical success rate at the same budget within source group
+paper_evalplus_mbpp_full,constant_empirical_prior,test_distribution_diagnostic,4,1512,1512,0.2163545342669198,0.0,0.35185185185185186,leave-one-task-out empirical success rate applied at every budget
+paper_evalplus_mbpp_full,output_length_proxy,posthoc_diagnostic,4,1512,1512,0.17394179894179895,0.04662698412698411,0.05886243386243386,post-hoc output-token proxy; interpret as diagnostic
+paper_evalplus_mbpp_full,prompt_length_empirical,calibration_split_baseline,4,1512,1512,0.242546541250245,0.1821428571428572,0.01455026455026455,metadata-only curve from prompt length
+paper_evalplus_mbpp_full,self_forecast,model_forecast_raw,4,1512,1512,0.25880916005291005,0.21683311287477955,0.01455026455026455,model-provided pre-execution probability curve
+paper_evalplus_mbpp_full,single_budget,calibration_split_baseline,4,1512,1512,0.2956878306878307,0.22614638447971774,0.012566137566137565,threshold curve at the middle budget
+paper_evalplus_mbpp_full,source_empirical_prior,test_distribution_diagnostic,4,1512,1512,0.1937189689179079,0.03519851795713871,0.011904761904761904,leave-one-task-out empirical success rate at the same budget within source group
+paper_math_core,constant_empirical_prior,test_distribution_diagnostic,4,4000,4000,0.2417273504535567,2.7755575615628914e-17,0.70525,leave-one-task-out empirical success rate applied at every budget
+paper_math_core,output_length_proxy,posthoc_diagnostic,4,4000,4000,0.16602499999999998,0.13924999999999998,0.21125,post-hoc output-token proxy; interpret as diagnostic
+paper_math_core,prompt_length_empirical,calibration_split_baseline,4,4000,4000,0.20773964790282018,0.1204445848241417,0.013999999999999999,metadata-only curve from prompt length
+paper_math_core,self_forecast,model_forecast_raw,4,3999,3999,0.1806955059446947,0.13910677902902902,0.014006506506506505,model-provided pre-execution probability curve
+paper_math_core,single_budget,calibration_split_baseline,4,4000,4000,0.18484,0.1013999999999999,0.192,threshold curve at the middle budget
+paper_math_core,source_empirical_prior,test_distribution_diagnostic,4,4000,4000,0.1792551364673748,0.024024024024024055,0.03925,leave-one-task-out empirical success rate at the same budget within source group

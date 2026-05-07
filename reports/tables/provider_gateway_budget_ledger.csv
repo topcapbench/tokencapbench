@@ -1,0 +1,6 @@
+experiment,cap_usd,estimated_usd,actual_or_logged_usd,status,models,tasks,budgets,notes
+CanItEdit descriptive,18.00,3.647406,1.632224,completed,claude-3-haiku;DeepSeek-V3-0324;gemini-2.0-flash-001;gemini-2.0-flash-lite-001,105,128;256;512;1024;2048,provided-test editing bridge
+BigCodeBench-Hard,22.00,6.185536,1.748472,completed,DeepSeek-V3-0324;gemini-2.0-flash-001,148,128;256;512;1024;2048;4096,official-package BigCodeBench labels
+BigCodeBench-Hard expansion,35.00,5.137861,5.137861,completed,gemini-2.0-flash-lite-001;claude-3-haiku;gpt-5-mini,148,128;256;512;1024;2048;4096,expanded comparison set and repaired nine API timeout rows
+LiveCodeBench fresh 300,15.00,7.823516,7.823516,completed,gemini-2.0-flash-001;DeepSeek-V3-0324,300,64;128;256;512;1024;2048,official LiveCodeBench labels via external runner
+TOTAL new provider calls,70.00,22.794319,16.342073,within_cap,,,,Token-based estimate from provider-reported usage fields and local pricing metadata; not a provider invoice.

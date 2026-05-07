@@ -1,0 +1,91 @@
+{
+  "cap_usd": 6.0,
+  "config": "configs/paper_forecast_stability.yaml",
+  "cost_mode": "active_artifact_estimate",
+  "estimated_total_cost_usd": 5.205682,
+  "exceeds_cap": false,
+  "forecast_only": true,
+  "mode": "conservative",
+  "models": [
+    "gemini-2.0-flash-lite-001",
+    "DeepSeek-V3-0324"
+  ],
+  "per_model": [
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 0.12994,
+          "solver_calls": 0,
+          "source": "gsm8k",
+          "tasks": 50
+        },
+        {
+          "estimated_cost_usd": 0.129741,
+          "solver_calls": 0,
+          "source": "hendrycks_math",
+          "tasks": 50
+        },
+        {
+          "estimated_cost_usd": 0.065494,
+          "solver_calls": 0,
+          "source": "evalplus_humaneval",
+          "tasks": 25
+        },
+        {
+          "estimated_cost_usd": 0.064655,
+          "solver_calls": 0,
+          "source": "evalplus_mbpp",
+          "tasks": 25
+        }
+      ],
+      "forecast_call_cost_usd": 0.38983,
+      "model": "gemini-2.0-flash-lite-001",
+      "pricing_basis": "Google Gemini 2.0 Flash-Lite standard",
+      "solver_call_cost_usd": 0.0,
+      "total_cost_usd": 0.38983,
+      "worst_case_cost_usd": 0.38983
+    },
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 1.605213,
+          "solver_calls": 0,
+          "source": "gsm8k",
+          "tasks": 50
+        },
+        {
+          "estimated_cost_usd": 1.600582,
+          "solver_calls": 0,
+          "source": "hendrycks_math",
+          "tasks": 50
+        },
+        {
+          "estimated_cost_usd": 0.814769,
+          "solver_calls": 0,
+          "source": "evalplus_humaneval",
+          "tasks": 25
+        },
+        {
+          "estimated_cost_usd": 0.795288,
+          "solver_calls": 0,
+          "source": "evalplus_mbpp",
+          "tasks": 25
+        }
+      ],
+      "forecast_call_cost_usd": 4.815852,
+      "model": "DeepSeek-V3-0324",
+      "pricing_basis": "Conservative DeepSeek official v4-pro undiscounted upper-bound proxy",
+      "solver_call_cost_usd": 0.0,
+      "total_cost_usd": 4.815852,
+      "worst_case_cost_usd": 4.815852
+    }
+  ],
+  "pricing_config_version": "2026-04-28",
+  "prompt_variants": 3,
+  "reasoning_tokens_available": false,
+  "repeats": 3,
+  "suite_name": "paper_forecast_stability",
+  "tasks": 150,
+  "warning": "Provider invoices may differ from token-based estimate.",
+  "worst_case_total_cost_usd": 5.205682
+}

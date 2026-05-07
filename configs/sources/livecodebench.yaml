@@ -1,0 +1,5 @@
+source: livecodebench
+split: test
+limit: 200
+budget_grid: [1024, 2048, 4096, 8192, 16384]
+role: freshness and contamination-resistance coding track

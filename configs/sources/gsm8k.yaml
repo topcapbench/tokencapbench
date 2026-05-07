@@ -1,0 +1,5 @@
+source: gsm8k
+split: test
+limit: 300
+budget_grid: [256, 512, 1024, 2048, 4096]
+role: math sanity and calibration track

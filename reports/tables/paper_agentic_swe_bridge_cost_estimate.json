@@ -1,0 +1,38 @@
+{
+  "cap_usd": 20.0,
+  "config": "configs/paper_agentic_swe_bridge.yaml",
+  "cost_mode": "active_artifact_estimate",
+  "estimated_total_cost_usd": 0.033298,
+  "exceeds_cap": false,
+  "forecast_only": false,
+  "mode": "conservative",
+  "models": [
+    "gemini-2.0-flash-lite-001"
+  ],
+  "per_model": [
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 0.033298,
+          "solver_calls": 10,
+          "source": "swebench",
+          "tasks": 5
+        }
+      ],
+      "forecast_call_cost_usd": 0.001802,
+      "model": "gemini-2.0-flash-lite-001",
+      "pricing_basis": "Google Gemini 2.0 Flash-Lite standard",
+      "solver_call_cost_usd": 0.031496,
+      "total_cost_usd": 0.033298,
+      "worst_case_cost_usd": 0.033298
+    }
+  ],
+  "pricing_config_version": "2026-04-28",
+  "prompt_variants": 1,
+  "reasoning_tokens_available": false,
+  "repeats": 1,
+  "suite_name": "paper_agentic_swe_bridge",
+  "tasks": 5,
+  "warning": "Provider invoices may differ from token-based estimate.",
+  "worst_case_total_cost_usd": 0.033298
+}

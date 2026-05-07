@@ -1,0 +1,29 @@
+suite_name: paper_canitedit_descriptive
+task_file: data/tasks/paper_canitedit_descriptive.jsonl
+output_root: reports/runs
+provider: chat_gateway
+base_url: https://anonymous-gateway.example.invalid/v1
+endpoint: /chat/completions
+models:
+  - DeepSeek-V3-0324
+  - gemini-2.0-flash-001
+  - gemini-2.0-flash-lite-001
+  - claude-3-haiku
+scaffold: direct
+forecast_prompt: prompts/forecast_canitedit_prompt.md
+solver_prompts:
+  code_editing: prompts/solve_canitedit_prompt.md
+  coding_edit: prompts/solve_canitedit_prompt.md
+budget_grid:
+  default: [128, 256, 512, 1024, 2048]
+  code_editing: [128, 256, 512, 1024, 2048]
+  coding_edit: [128, 256, 512, 1024, 2048]
+temperature: 0.0
+max_forecast_tokens: 900
+limit: 105
+metadata:
+  paper_role: paper_extension_or_appendix
+  instruction_style: descriptive
+  chat_completion_compatible: true
+  verifier_requirement: canitedit_provided_tests
+  cost_cap_usd: 15

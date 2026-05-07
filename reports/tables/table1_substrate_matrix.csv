@@ -1,0 +1,8 @@
+substrate,codebase,task_type,verifier,integration_difficulty,budget2success_role,decision
+GSM8K,openai/grade-school-math or HF openai/gsm8k,math word problems,numeric exact answer,low,pilot and calibration sanity track,primary
+MATH / MATH-500,hendrycks/math or HF hendrycks/competition_math,competition math,boxed answer / optional math-verify,medium,main math reasoning track,primary
+EvalPlus HumanEval+ / MBPP+,evalplus/evalplus,function-level coding,official EvalPlus tests,low,coding sanity and baseline track,primary
+BigCodeBench,bigcode-project/bigcodebench,library-heavy Python coding,official unit-test evaluator,medium,main practical coding track,secondary
+LiveCodeBench,livecodebench/livecodebench,fresh contest coding,official contest-style tests,medium,freshness and contamination check,secondary
+SWE-bench Verified,swe-bench/SWE-bench,repository-level issue resolution,official SWE-bench Docker harness,high,flagship SWE track,flagship
+BFCL / tau2-bench,Gorilla BFCL; sierra-research/tau2-bench,tool use and multi-turn agentic tasks,official evaluator / simulator success,medium-high,optional agentic token/time extension,optional

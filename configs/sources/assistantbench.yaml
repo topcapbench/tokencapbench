@@ -1,0 +1,6 @@
+source: assistantbench
+limit: 50
+budget_grid: [2048, 4096, 8192, 16384, 32768]
+kwargs:
+  path: data/raw/assistantbench_budget2success_export.jsonl
+role: optional web-agent timing/token calibration track

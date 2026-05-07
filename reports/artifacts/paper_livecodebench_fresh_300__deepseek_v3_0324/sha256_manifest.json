@@ -1,0 +1,8 @@
+{
+  "config_snapshot.yaml": "4108323cd08612fedd2697c0d796133752d0a038c5d9fed9722adc170e103d71",
+  "forecasts.jsonl": "785c849a742e8a1e49a319d971e613e5d304b310c444e23bdbafafd5760c5f2b",
+  "metrics.json": "6324dc99d40f4259a65d4cc2477aebab3bffca933d4437602978299a27bbd547",
+  "official_livecodebench_manifest.json": "2908d8a5cac9b86dd5ab31e5b541cbc370467cc968ccc0a26609e33733fcbd79",
+  "outcomes.jsonl": "75a75ae210ee0d87b4c65947637b51615670c6d2c360d8b4dc234a8d47c3c3ec",
+  "run_manifest.json": "798736aec01e60a4f1c62cc6278c4cd229b6738d12a0a084180adb7727ad9bc6"
+}

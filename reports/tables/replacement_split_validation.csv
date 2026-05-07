@@ -1,0 +1,13 @@
+split,check,status,observed,expected,notes
+canitedit,file_exists,pass,data/processed/paper_canitedit_descriptive.jsonl,data/processed/paper_canitedit_descriptive.jsonl,split file present
+canitedit,schema_valid,pass,105,valid TaskRecord JSONL,all rows validate
+bigcodebench_hard,file_exists,pass,data/processed/paper_bigcodebench_hard.jsonl,data/processed/paper_bigcodebench_hard.jsonl,split file present
+bigcodebench_hard,schema_valid,pass,148,valid TaskRecord JSONL,all rows validate
+canitedit,task_count,pass,105,>=100,real CanItEdit split size
+canitedit,provided_test_coverage,pass,1.000000,>=0.80,105/105 rows have nonempty metadata.tests
+canitedit,not_toy_smoke,pass,105,>=100,unique task IDs
+bigcodebench_hard,task_count,pass,148,148,expected BigCodeBench-Hard task count
+canitedit,chat_completion_compatible,pass,105,105,every row must be chat-completion compatible
+canitedit,requires_docker_false,pass,105,105,local verification path must not require Docker
+bigcodebench_hard,chat_completion_compatible,pass,148,148,every row must be chat-completion compatible
+bigcodebench_hard,requires_docker_false,pass,148,148,local verification path must not require Docker

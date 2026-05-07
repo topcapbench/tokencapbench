@@ -1,0 +1,9 @@
+{
+  "config_snapshot.yaml": "037a7241a992967ee916de3e0e10434b1299b12128afee2cbaa53365f09446fd",
+  "forecasts.jsonl": "a50479e7efe998c5f7e85b3d67122f73b355d14a765bb8ccf6981a9acd1672b5",
+  "metrics.json": "5f02ac32ea961b5d4363e74705078fa27235e96b3292c69c9c9f9e35bf74ff8e",
+  "outcomes.jsonl": "58ba5d36d8d562a5eab8b7bfd10a2748e54f55302f69d013595469866178f1ca",
+  "run_manifest.json": "fe6473018e8defeaf4afd693c74aca28d9c10eac7367b215042094045477ce34",
+  "source_config_snapshot.yaml": "037a7241a992967ee916de3e0e10434b1299b12128afee2cbaa53365f09446fd",
+  "task_file_hash.json": "ef7dc9031d3fc19e2e400cd20cf71c571c500d0e0ffe58461cebf6d034a4463d"
+}

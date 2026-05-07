@@ -1,0 +1,28 @@
+suite_name: paper_livecodebench_fresh_200
+task_file: data/processed/paper_livecodebench_fresh_200.jsonl
+output_root: reports/runs
+provider: provider
+models:
+  - claude-3-haiku
+  - DeepSeek-V3-0324
+  - gemini-2.0-flash-001
+  - gemini-2.0-flash-lite-001
+scaffold: direct
+forecast_prompt: prompts/forecast_prompt.md
+solver_prompts:
+  math: prompts/solve_math_prompt.md
+  coding: prompts/solve_coding_prompt.md
+  swe: prompts/solve_swe_prompt.md
+  agentic: prompts/solve_agentic_prompt.md
+budget_grid:
+  default: [64, 128, 256, 512, 1024, 2048]
+  coding: [64, 128, 256, 512, 1024, 2048]
+temperature: 0.0
+max_forecast_tokens: 900
+limit: 200
+metadata:
+  paper_role: optional_fresh_coding_200
+  verifier_requirement: livecodebench_official
+  cost_cap_usd: 15
+  run_status: completed_live_api
+  note: local processed fresh file contains the requested 200 LiveCodeBench tasks; official labels are packaged under reports/artifacts_livecodebench_official/paper_livecodebench_fresh_200.

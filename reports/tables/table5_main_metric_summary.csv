@@ -1,0 +1,2 @@
+run_id,model,n_forecasts,n_outcome_tasks,n_budget_observations,brier,ece,mean_log_token_error,underbudget_rate,mean_overbudget_ratio,mean_regret,censoring_rate,pairwise_ttg_ranking_accuracy,mean_wall_time_seconds,mean_completion_tokens
+provider_smoke_gemini_2_0_flash_lite_001,gemini-2.0-flash-lite-001,3,3,9,0.32,0.4666666666666666,0.7543734031361969,0.0,2.1927083333333335,0.0,0.0,1.0,1.2256534637676344,132.0

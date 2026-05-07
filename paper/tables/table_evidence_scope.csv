@@ -1,0 +1,6 @@
+role,track,tasks,models,verifier,use
+Core,GSM8K + MATH,1000,4,numeric / symbolic,main calibration and allocation claims
+Core,HumanEval+ + MBPP+,542,4,EvalPlus unit tests,main calibration and allocation claims
+Extension,BigCodeBench-Hard,148,5,BigCodeBench package labels,hard practical coding extension
+Extension,CanItEdit,105,4,provided tests,code-editing bridge
+Artifact,Core outcome rows,"33,008 rows",4,row-level JSONL,external release store manifest

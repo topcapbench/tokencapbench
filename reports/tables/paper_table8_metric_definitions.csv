@@ -1,0 +1,18 @@
+metric,family,definition,direction
+brier,calibration,Mean squared error between forecast P(success by budget) and verified binary outcomes.,lower is better
+ece,calibration,Expected calibration error over budget-outcome probability bins.,lower is better
+success_at_max_budget,capability,Share of tasks solved at the largest observed budget.,higher is better
+censoring_rate,success_budget,Share of tasks not solved by the largest observed budget.,lower is better
+absolute_log_budget_error,success_budget,"Absolute log error between predicted median success budget and first verified success budget, solved tasks only.",lower is better
+signed_log_budget_error,allocation,Mean log(predicted budget) minus log(observed first-success budget); negative means underbudgeting and positive means overbudgeting.,closer to 0 is better
+censored_lower_bound_error,success_budget,Lower-bound log error for right-censored tasks when forecasts fall below the censoring budget.,lower is better
+underbudget_rate,allocation,Share of solved tasks where predicted budget is below observed first-success budget.,lower is better
+overbudget_rate,allocation,Share of solved tasks where predicted budget is above observed first-success budget.,lower is better
+underbudget_shortfall_factor,allocation,Observed first-success budget divided by predicted budget on underbudgeted solved tasks.,lower is better
+overbudget_waste_factor,allocation,Predicted budget divided by observed first-success budget on overbudgeted solved tasks.,lower is better
+regret,allocation,Utility gap between the forecast-selected budget and the best verified budget in hindsight.,lower is better
+normalized_regret,allocation,Budget-selection regret divided by the observed oracle utility range; zero-range tasks are assigned 0.0.,lower is better
+forecast_monotonicity_violation_rate,diagnostic,Share of task forecast curves that decrease as budget increases.,lower is better
+outcome_nonmonotonicity_rate,diagnostic,Share of tasks that pass at one budget and fail at a later larger budget.,lower is better
+task_budget_ranking_accuracy,diagnostic,Pairwise accuracy for ranking solved tasks by required budget from predicted success budget.,higher is better
+truncation_rate,diagnostic,Share of budgeted solver outputs ending by length or at the generated-token cap.,report

@@ -1,0 +1,19 @@
+
+\begin{table}[t]
+\centering
+\small
+\caption{Token-usage proxy comparison. Token-use predictions can be useful auxiliary features, but they are evaluated here only after being mapped to verified success under imposed budgets.}
+\label{tab:token-proxy}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+Suite & Usage coverage & Success-rank acc. & Token-proxy rank acc. & Raw success Brier & Token-proxy Brier \\
+\midrule
+BigCodeBench-Hard & 1.00 & 0.525 & 0.583 & 0.427 & 0.043 \\
+HumanEval+ & 1.00 & 0.568 & 0.642 & 0.222 & 0.193 \\
+MBPP+ & 1.00 & 0.421 & 0.573 & 0.401 & 0.075 \\
+Math core & 1.00 & 0.704 & 0.729 & 0.170 & 0.165 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

@@ -1,0 +1,10 @@
+track,model,tasks,success_at_max,brier,ece,rank_accuracy
+BigCodeBench-Hard,DeepSeek V3,148,0.115,0.398,0.494,0.609
+BigCodeBench-Hard,Claude Haiku,148,0.101,0.430,0.533,0.452
+BigCodeBench-Hard,Gemini Flash,148,0.000,0.436,0.565,--
+BigCodeBench-Hard,Gemini Flash Lite,148,0.000,0.392,0.507,--
+BigCodeBench-Hard,GPT-5-mini,148,0.331,0.469,0.559,0.577
+CanItEdit,DeepSeek V3,105,0.676,0.211,0.108,0.481
+CanItEdit,Claude Haiku,105,0.581,0.298,0.288,0.431
+CanItEdit,Gemini Flash,105,0.629,0.253,0.237,0.423
+CanItEdit,Gemini Flash Lite,105,0.667,0.225,0.148,0.407

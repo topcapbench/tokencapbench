@@ -1,0 +1,161 @@
+{
+  "cap_usd": 8.0,
+  "config": "configs/paper_dual_success_usage_forecast_300.yaml",
+  "cost_mode": "active_artifact_estimate",
+  "estimated_total_cost_usd": 1.671522,
+  "exceeds_cap": false,
+  "forecast_only": true,
+  "mode": "conservative",
+  "models": [
+    "gemini-2.0-flash-lite-001",
+    "gemini-2.0-flash-001",
+    "DeepSeek-V3-0324",
+    "claude-3-haiku"
+  ],
+  "per_model": [
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 0.021964,
+          "solver_calls": 0,
+          "source": "gsm8k",
+          "tasks": 75
+        },
+        {
+          "estimated_cost_usd": 0.021989,
+          "solver_calls": 0,
+          "source": "hendrycks_math",
+          "tasks": 75
+        },
+        {
+          "estimated_cost_usd": 0.022308,
+          "solver_calls": 0,
+          "source": "evalplus_humaneval",
+          "tasks": 75
+        },
+        {
+          "estimated_cost_usd": 0.021855,
+          "solver_calls": 0,
+          "source": "evalplus_mbpp",
+          "tasks": 75
+        }
+      ],
+      "forecast_call_cost_usd": 0.088116,
+      "model": "gemini-2.0-flash-lite-001",
+      "pricing_basis": "Google Gemini 2.0 Flash-Lite standard",
+      "solver_call_cost_usd": 0.0,
+      "total_cost_usd": 0.088116,
+      "worst_case_cost_usd": 0.088116
+    },
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 0.029285,
+          "solver_calls": 0,
+          "source": "gsm8k",
+          "tasks": 75
+        },
+        {
+          "estimated_cost_usd": 0.029319,
+          "solver_calls": 0,
+          "source": "hendrycks_math",
+          "tasks": 75
+        },
+        {
+          "estimated_cost_usd": 0.029744,
+          "solver_calls": 0,
+          "source": "evalplus_humaneval",
+          "tasks": 75
+        },
+        {
+          "estimated_cost_usd": 0.02914,
+          "solver_calls": 0,
+          "source": "evalplus_mbpp",
+          "tasks": 75
+        }
+      ],
+      "forecast_call_cost_usd": 0.117488,
+      "model": "gemini-2.0-flash-001",
+      "pricing_basis": "Google Gemini 2.0 Flash standard",
+      "solver_call_cost_usd": 0.0,
+      "total_cost_usd": 0.117488,
+      "worst_case_cost_usd": 0.117488
+    },
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 0.274666,
+          "solver_calls": 0,
+          "source": "gsm8k",
+          "tasks": 75
+        },
+        {
+          "estimated_cost_usd": 0.275244,
+          "solver_calls": 0,
+          "source": "hendrycks_math",
+          "tasks": 75
+        },
+        {
+          "estimated_cost_usd": 0.282653,
+          "solver_calls": 0,
+          "source": "evalplus_humaneval",
+          "tasks": 75
+        },
+        {
+          "estimated_cost_usd": 0.272134,
+          "solver_calls": 0,
+          "source": "evalplus_mbpp",
+          "tasks": 75
+        }
+      ],
+      "forecast_call_cost_usd": 1.104696,
+      "model": "DeepSeek-V3-0324",
+      "pricing_basis": "Conservative DeepSeek official v4-pro undiscounted upper-bound proxy",
+      "solver_call_cost_usd": 0.0,
+      "total_cost_usd": 1.104696,
+      "worst_case_cost_usd": 1.104696
+    },
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 0.090089,
+          "solver_calls": 0,
+          "source": "gsm8k",
+          "tasks": 75
+        },
+        {
+          "estimated_cost_usd": 0.090171,
+          "solver_calls": 0,
+          "source": "hendrycks_math",
+          "tasks": 75
+        },
+        {
+          "estimated_cost_usd": 0.091236,
+          "solver_calls": 0,
+          "source": "evalplus_humaneval",
+          "tasks": 75
+        },
+        {
+          "estimated_cost_usd": 0.089725,
+          "solver_calls": 0,
+          "source": "evalplus_mbpp",
+          "tasks": 75
+        }
+      ],
+      "forecast_call_cost_usd": 0.361221,
+      "model": "claude-3-haiku",
+      "pricing_basis": "Anthropic Claude Haiku 3",
+      "solver_call_cost_usd": 0.0,
+      "total_cost_usd": 0.361221,
+      "worst_case_cost_usd": 0.361221
+    }
+  ],
+  "pricing_config_version": "2026-04-28",
+  "prompt_variants": 1,
+  "reasoning_tokens_available": false,
+  "repeats": 1,
+  "suite_name": "paper_dual_success_usage_forecast_300",
+  "tasks": 300,
+  "warning": "Provider invoices may differ from token-based estimate.",
+  "worst_case_total_cost_usd": 1.671521
+}

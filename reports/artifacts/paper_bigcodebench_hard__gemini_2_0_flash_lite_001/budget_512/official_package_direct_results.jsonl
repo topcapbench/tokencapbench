@@ -1,0 +1,148 @@
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/19"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/15"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/17"}
+{"details": {"ALL": "unterminated string literal (detected at line 42) (__test__.py, line 42)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/13"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/34"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/37"}
+{"details": {"ALL": "unterminated string literal (detected at line 53) (__test__.py, line 53)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/82"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/89"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/92"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/93"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/99"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/100"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 113) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/108"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/101"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 81) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/120"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/123"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 75) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/124"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/129"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/147"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/139"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/162"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/161"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/177"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 111) (__test__.py, line 18)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/184"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/187"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 99) (__test__.py, line 96)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/199"}
+{"details": {"ALL": "unterminated string literal (detected at line 48) (__test__.py, line 48)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/208"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/211"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/214"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/227"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/239"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/241"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/267"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/273"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/287"}
+{"details": {"ALL": "unterminated string literal (detected at line 52) (__test__.py, line 52)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/274"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/302"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/308"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/310"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/324"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/313"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/326"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/341"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/346"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/367"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/360"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/374"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/368"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/401"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/399"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/417"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/418"}
+{"details": {"ALL": "invalid decimal literal (__test__.py, line 50)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/424"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/443"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/445"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/454"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/458"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/477"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/461"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 118) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/486"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 104) (__test__.py, line 12)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/492"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/501"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/502"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/503"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/509"}
+{"details": {"ALL": "unterminated string literal (detected at line 46) (__test__.py, line 46)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/511"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 155) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/513"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/526"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/528"}
+{"details": {"ALL": "unterminated string literal (detected at line 54) (__test__.py, line 54)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/530"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/553"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/532"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/560"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/567"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/574"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/579"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/582"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/583"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/587"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/590"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/592"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/593"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/594"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/618"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/636"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/637"}
+{"details": {"ALL": "unterminated string literal (detected at line 51) (__test__.py, line 51)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/654"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/655"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/657"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/678"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/720"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/723"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 155) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/752"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 80) (__test__.py, line 12)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/760"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/763"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/765"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/771"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/777"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/785"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/800"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/826"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/854"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/845"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/857"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 127) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/865"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/870"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 106) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/879"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/897"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/906"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/914"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/915"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/916"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/917"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/928"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 75) (__test__.py, line 72)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/942"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 62) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/945"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/952"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/955"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/963"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/964"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/969"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/971"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/985"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/988"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/990"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/999"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1003"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1004"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1006"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1008"}
+{"details": {"ALL": "unterminated string literal (detected at line 59) (__test__.py, line 59)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1012"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1013"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1015"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1019"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1020"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1022"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1039"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1040"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1042"}
+{"details": {"ALL": "unterminated string literal (detected at line 90) (__test__.py, line 90)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1053"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1057"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1085"}
+{"details": {"ALL": "unterminated string literal (detected at line 45) (__test__.py, line 45)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1077"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1124"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1129"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1137"}
+{"details": {"test_empty_excel_file": "Traceback (most recent call last):\n  File \"__test__.py\", line 18, in setUp\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/util/_decorators.py\", line 333, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/core/generic.py\", line 2439, in to_excel\n    formatter.write(\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/io/formats/excel.py\", line 943, in write\n    writer = ExcelWriter(\n             ^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/io/excel/_openpyxl.py\", line 57, in __init__\n    from openpyxl.workbook import Workbook\nModuleNotFoundError: No module named 'openpyxl'\n", "test_file_with_different_data_types": "Traceback (most recent call last):\n  File \"__test__.py\", line 18, in setUp\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/util/_decorators.py\", line 333, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/core/generic.py\", line 2439, in to_excel\n    formatter.write(\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/io/formats/excel.py\", line 943, in write\n    writer = ExcelWriter(\n             ^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/io/excel/_openpyxl.py\", line 57, in __init__\n    from openpyxl.workbook import Workbook\nModuleNotFoundError: No module named 'openpyxl'\n", "test_invalid_column_name": "Traceback (most recent call last):\n  File \"__test__.py\", line 18, in setUp\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/util/_decorators.py\", line 333, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/core/generic.py\", line 2439, in to_excel\n    formatter.write(\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/io/formats/excel.py\", line 943, in write\n    writer = ExcelWriter(\n             ^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/io/excel/_openpyxl.py\", line 57, in __init__\n    from openpyxl.workbook import Workbook\nModuleNotFoundError: No module named 'openpyxl'\n", "test_non_existent_file": "Traceback (most recent call last):\n  File \"__test__.py\", line 18, in setUp\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/util/_decorators.py\", line 333, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/core/generic.py\", line 2439, in to_excel\n    formatter.write(\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/io/formats/excel.py\", line 943, in write\n    writer = ExcelWriter(\n             ^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/io/excel/_openpyxl.py\", line 57, in __init__\n    from openpyxl.workbook import Workbook\nModuleNotFoundError: No module named 'openpyxl'\n", "test_normal_functionality": "Traceback (most recent call last):\n  File \"__test__.py\", line 18, in setUp\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/util/_decorators.py\", line 333, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/core/generic.py\", line 2439, in to_excel\n    formatter.write(\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/io/formats/excel.py\", line 943, in write\n    writer = ExcelWriter(\n             ^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/pandas/io/excel/_openpyxl.py\", line 57, in __init__\n    from openpyxl.workbook import Workbook\nModuleNotFoundError: No module named 'openpyxl'\n"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/409"}
+{"details": {"test_download_failure": "Traceback (most recent call last):\n  File \"__test__.py\", line 18, in setUp\nNameError: name 'tarfile' is not defined\n", "test_extraction_success": "Traceback (most recent call last):\n  File \"__test__.py\", line 18, in setUp\nNameError: name 'tarfile' is not defined\n", "test_file_removal_after_failure": "Traceback (most recent call last):\n  File \"__test__.py\", line 18, in setUp\nNameError: name 'tarfile' is not defined\n", "test_invalid_checksum_valid_format": "Traceback (most recent call last):\n  File \"__test__.py\", line 18, in setUp\nNameError: name 'tarfile' is not defined\n", "test_valid_file": "Traceback (most recent call last):\n  File \"__test__.py\", line 18, in setUp\nNameError: name 'tarfile' is not defined\n"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/998"}

@@ -1,0 +1,48 @@
+{
+  "cap_usd": 20.0,
+  "config": "configs/experiments/paper_repeatability_small.yaml",
+  "cost_mode": "active_artifact_estimate",
+  "estimated_total_cost_usd": 0.669429,
+  "exceeds_cap": false,
+  "mode": "conservative",
+  "models": [
+    "gemini-2.0-flash-lite-001"
+  ],
+  "per_model": [
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 0.267319,
+          "solver_calls": 720,
+          "source": "gsm8k",
+          "tasks": 40
+        },
+        {
+          "estimated_cost_usd": 0.202322,
+          "solver_calls": 540,
+          "source": "evalplus_humaneval",
+          "tasks": 30
+        },
+        {
+          "estimated_cost_usd": 0.199787,
+          "solver_calls": 540,
+          "source": "evalplus_mbpp",
+          "tasks": 30
+        }
+      ],
+      "forecast_call_cost_usd": 0.173766,
+      "model": "gemini-2.0-flash-lite-001",
+      "pricing_basis": "Google Gemini 2.0 Flash-Lite standard",
+      "solver_call_cost_usd": 0.495663,
+      "total_cost_usd": 0.669429,
+      "worst_case_cost_usd": 0.669429
+    }
+  ],
+  "pricing_config_version": "2026-04-28",
+  "reasoning_tokens_available": false,
+  "repeats": 6,
+  "suite_name": "paper_repeatability_small",
+  "tasks": 100,
+  "warning": "Provider invoices may differ from token-based estimate.",
+  "worst_case_total_cost_usd": 0.669429
+}

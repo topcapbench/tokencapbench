@@ -1,0 +1,3 @@
+source,n_sampled,n_annotated,human_audit_label_counts,notes
+gsm8k,50,50,"{""auto_correct"": 39, ""auto_incorrect"": 11}",human_audit_label audits whether the current automatic verifier decision matches manual review.
+hendrycks_math,50,50,"{""auto_correct"": 40, ""auto_incorrect"": 10}",human_audit_label audits whether the current automatic verifier decision matches manual review.

@@ -1,0 +1,87 @@
+{
+  "cap_usd": 20.0,
+  "config": "configs/experiments/paper_livecodebench_fresh_small.yaml",
+  "cost_mode": "active_artifact_estimate",
+  "estimated_total_cost_usd": 1.683849,
+  "exceeds_cap": false,
+  "mode": "conservative",
+  "models": [
+    "gemini-2.0-flash-001",
+    "DeepSeek-V3-0324",
+    "claude-3-haiku",
+    "gemini-2.0-flash-lite-001"
+  ],
+  "per_model": [
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 0.114567,
+          "solver_calls": 300,
+          "source": "livecodebench",
+          "tasks": 50
+        }
+      ],
+      "forecast_call_cost_usd": 0.021037,
+      "model": "gemini-2.0-flash-001",
+      "pricing_basis": "Google Gemini 2.0 Flash standard",
+      "solver_call_cost_usd": 0.093529,
+      "total_cost_usd": 0.114567,
+      "worst_case_cost_usd": 0.114567
+    },
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 1.135291,
+          "solver_calls": 300,
+          "source": "livecodebench",
+          "tasks": 50
+        }
+      ],
+      "forecast_call_cost_usd": 0.209451,
+      "model": "DeepSeek-V3-0324",
+      "pricing_basis": "Conservative DeepSeek official v4-pro undiscounted upper-bound proxy",
+      "solver_call_cost_usd": 0.92584,
+      "total_cost_usd": 1.135291,
+      "worst_case_cost_usd": 1.135291
+    },
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 0.348067,
+          "solver_calls": 300,
+          "source": "livecodebench",
+          "tasks": 50
+        }
+      ],
+      "forecast_call_cost_usd": 0.063843,
+      "model": "claude-3-haiku",
+      "pricing_basis": "Anthropic Claude Haiku 3",
+      "solver_call_cost_usd": 0.284223,
+      "total_cost_usd": 0.348067,
+      "worst_case_cost_usd": 0.348067
+    },
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 0.085925,
+          "solver_calls": 300,
+          "source": "livecodebench",
+          "tasks": 50
+        }
+      ],
+      "forecast_call_cost_usd": 0.015778,
+      "model": "gemini-2.0-flash-lite-001",
+      "pricing_basis": "Google Gemini 2.0 Flash-Lite standard",
+      "solver_call_cost_usd": 0.070147,
+      "total_cost_usd": 0.085925,
+      "worst_case_cost_usd": 0.085925
+    }
+  ],
+  "pricing_config_version": "2026-04-28",
+  "reasoning_tokens_available": false,
+  "repeats": 1,
+  "suite_name": "paper_livecodebench_fresh_small",
+  "tasks": 50,
+  "warning": "Provider invoices may differ from token-based estimate.",
+  "worst_case_total_cost_usd": 1.68385
+}

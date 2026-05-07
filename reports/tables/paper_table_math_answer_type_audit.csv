@@ -1,0 +1,2 @@
+suite,source,answer_type,model,n_rows,n_changed,change_rate,old_success_rate,new_success_rate,success_delta,verifier_mode,notes
+paper_math_core,gsm8k_numeric_and_hendrycks_math_symbolic,mixed,all,20000,0,0.0,,,0.0,frozen_paper_artifacts,Frozen paper artifact labels are used; no fresh math answer-type re-verification was rerun in this packaging pass.

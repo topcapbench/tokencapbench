@@ -1,0 +1,89 @@
+{
+  "cap_usd": 18.0,
+  "config": "configs/paper_canitedit_descriptive_provider.yaml",
+  "cost_mode": "active_artifact_estimate",
+  "estimated_total_cost_usd": 3.647406,
+  "exceeds_cap": false,
+  "forecast_only": false,
+  "mode": "conservative",
+  "models": [
+    "gemini-2.0-flash-001",
+    "DeepSeek-V3-0324",
+    "gemini-2.0-flash-lite-001",
+    "claude-3-haiku"
+  ],
+  "per_model": [
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 0.249429,
+          "solver_calls": 525,
+          "source": "canitedit",
+          "tasks": 105
+        }
+      ],
+      "forecast_call_cost_usd": 0.057523,
+      "model": "gemini-2.0-flash-001",
+      "pricing_basis": "Google Gemini 2.0 Flash standard",
+      "solver_call_cost_usd": 0.191906,
+      "total_cost_usd": 0.249429,
+      "worst_case_cost_usd": 0.249429
+    },
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 2.451674,
+          "solver_calls": 525,
+          "source": "canitedit",
+          "tasks": 105
+        }
+      ],
+      "forecast_call_cost_usd": 0.562425,
+      "model": "DeepSeek-V3-0324",
+      "pricing_basis": "Conservative DeepSeek official v4-pro undiscounted upper-bound proxy",
+      "solver_call_cost_usd": 1.889249,
+      "total_cost_usd": 2.451674,
+      "worst_case_cost_usd": 2.451674
+    },
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 0.187072,
+          "solver_calls": 525,
+          "source": "canitedit",
+          "tasks": 105
+        }
+      ],
+      "forecast_call_cost_usd": 0.043142,
+      "model": "gemini-2.0-flash-lite-001",
+      "pricing_basis": "Google Gemini 2.0 Flash-Lite standard",
+      "solver_call_cost_usd": 0.143929,
+      "total_cost_usd": 0.187072,
+      "worst_case_cost_usd": 0.187072
+    },
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 0.759232,
+          "solver_calls": 525,
+          "source": "canitedit",
+          "tasks": 105
+        }
+      ],
+      "forecast_call_cost_usd": 0.175308,
+      "model": "claude-3-haiku",
+      "pricing_basis": "Anthropic Claude Haiku 3",
+      "solver_call_cost_usd": 0.583924,
+      "total_cost_usd": 0.759232,
+      "worst_case_cost_usd": 0.759232
+    }
+  ],
+  "pricing_config_version": "2026-04-28",
+  "prompt_variants": 1,
+  "reasoning_tokens_available": false,
+  "repeats": 1,
+  "suite_name": "paper_canitedit_descriptive",
+  "tasks": 105,
+  "warning": "Provider invoices may differ from token-based estimate.",
+  "worst_case_total_cost_usd": 3.647407
+}

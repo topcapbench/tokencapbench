@@ -1,0 +1,36 @@
+suite_name: paper_forecast_stability
+task_file: data/processed/paper_dual_success_usage_forecast.jsonl
+output_root: reports/runs
+provider: provider
+models:
+  - gemini-2.0-flash-lite-001
+  - DeepSeek-V3-0324
+forecast_only: true
+scaffold: direct
+forecast_prompt: prompts/forecast_prompt.md
+prompt_variants:
+  - prompts/forecast_prompt.md
+  - prompts/forecast_prompt_terse.md
+  - prompts/forecast_prompt_detailed.md
+solver_prompts:
+  math: prompts/solve_math_prompt.md
+  coding: prompts/solve_coding_prompt.md
+  swe: prompts/solve_swe_prompt.md
+  agentic: prompts/solve_agentic_prompt.md
+budget_grid:
+  default: [64, 128, 256, 512, 1024, 2048]
+  math: [64, 128, 256, 512, 1024, 2048]
+  coding: [64, 128, 256, 512, 1024, 2048]
+temperature: 0.0
+max_forecast_tokens: 900
+limit: null
+metadata:
+  paper_role: forecast_stability
+  cost_cap_usd: 6
+  repeats:
+    forecast: 3
+    solver: 1
+  reuse_existing_outcomes_from:
+    - paper_math_core
+    - paper_evalplus_humaneval_full
+    - paper_evalplus_mbpp_full

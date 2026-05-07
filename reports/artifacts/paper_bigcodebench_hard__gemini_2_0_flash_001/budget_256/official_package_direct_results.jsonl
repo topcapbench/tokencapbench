@@ -1,0 +1,148 @@
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/17"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 77) (__test__.py, line 72)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/13"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 102) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/15"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/19"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 60) (__test__.py, line 31)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/34"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 112) (__test__.py, line 34)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/37"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 111) (__test__.py, line 92)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/82"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 73) (__test__.py, line 65)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/89"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 64) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/92"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/93"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 47) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/99"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 73) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/100"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/101"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 103) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/108"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 56) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/120"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 81) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/123"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 52) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/124"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 93) (__test__.py, line 80)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/129"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 79) (__test__.py, line 68)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/139"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/147"}
+{"details": {"ALL": "unterminated string literal (detected at line 33) (__test__.py, line 33)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/161"}
+{"details": {"ALL": "unterminated string literal (detected at line 34) (__test__.py, line 34)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/162"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/177"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/184"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 51) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/187"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 79) (__test__.py, line 76)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/199"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 78) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/208"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/211"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 56) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/214"}
+{"details": {"ALL": "unterminated string literal (detected at line 64) (__test__.py, line 64)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/227"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 68) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/239"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 107) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/241"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/267"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 94) (__test__.py, line 86)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/273"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 98) (__test__.py, line 88)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/274"}
+{"details": {"ALL": "unterminated string literal (detected at line 35) (__test__.py, line 35)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/287"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 69) (__test__.py, line 10)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/302"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 71) (__test__.py, line 68)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/308"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/310"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 94) (__test__.py, line 41)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/313"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/324"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/326"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 75) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/341"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 96) (__test__.py, line 51)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/346"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 85) (__test__.py, line 40)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/360"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/367"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 95) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/368"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/374"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 62) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/399"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/401"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 74) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/409"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 70) (__test__.py, line 10)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/417"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 62) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/418"}
+{"details": {"ALL": "invalid decimal literal (__test__.py, line 29)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/424"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 97) (__test__.py, line 14)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/443"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 72) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/445"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 100) (__test__.py, line 56)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/454"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 60) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/458"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 97) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/461"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 81) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/477"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 105) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/486"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 87) (__test__.py, line 12)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/492"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 64) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/501"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 80) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/502"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 114) (__test__.py, line 10)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/503"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 105) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/509"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 114) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/511"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 136) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/513"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 136) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/526"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/528"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 103) (__test__.py, line 10)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/530"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 77) (__test__.py, line 10)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/532"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 55) (__test__.py, line 53)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/553"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 49) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/560"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/567"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/574"}
+{"details": {"ALL": "unterminated string literal (detected at line 67) (__test__.py, line 67)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/579"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/582"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 75) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/583"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/587"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 92) (__test__.py, line 83)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/590"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 73) (__test__.py, line 70)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/592"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 94) (__test__.py, line 88)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/593"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/594"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/618"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/636"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/654"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/637"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/657"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 60) (__test__.py, line 56)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/655"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 96) (__test__.py, line 90)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/678"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/720"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/723"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 130) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/752"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 58) (__test__.py, line 12)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/760"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/763"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 82) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/765"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/771"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/777"}
+{"details": {"ALL": "unterminated string literal (detected at line 41) (__test__.py, line 41)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/785"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 88) (__test__.py, line 83)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/800"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 80) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/826"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 40) (__test__.py, line 11)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/845"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 70) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/854"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 86) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/857"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 115) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/865"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 45) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/870"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 85) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/879"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 73) (__test__.py, line 10)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/897"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/906"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 73) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/914"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 70) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/915"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 81) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/916"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 137) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/917"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 67) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/928"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 54) (__test__.py, line 51)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/942"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 50) (__test__.py, line 7)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/945"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 100) (__test__.py, line 13)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/952"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 103) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/955"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 137) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/963"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 122) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/964"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 72) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/969"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 134) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/971"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 131) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/985"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 148) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/988"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 98) (__test__.py, line 88)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/990"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 88) (__test__.py, line 78)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/998"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 94) (__test__.py, line 86)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1003"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 84) (__test__.py, line 73)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1004"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 80) (__test__.py, line 70)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1006"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1008"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1012"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 91) (__test__.py, line 89)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1013"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 96) (__test__.py, line 94)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1015"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 83) (__test__.py, line 79)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1019"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 91) (__test__.py, line 81)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1020"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1022"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 168) (__test__.py, line 145)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1039"}
+{"details": {"ALL": "unterminated string literal (detected at line 74) (__test__.py, line 74)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1040"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 144) (__test__.py, line 129)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1042"}
+{"details": {"ALL": "unterminated string literal (detected at line 64) (__test__.py, line 64)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1053"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 94) (__test__.py, line 84)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1057"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 73) (__test__.py, line 67)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1077"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1085"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 75) (__test__.py, line 9)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1124"}
+{"details": {"ALL": "unterminated triple-quoted string literal (detected at line 89) (__test__.py, line 8)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1129"}
+{"details": {"ALL": "invalid syntax (__test__.py, line 1)"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/1137"}
+{"details": {"test_count_categories_data1": "Traceback (most recent call last):\n  File \"/usr/lib/python3.11/unittest/mock.py\", line 1378, in patched\n    return func(*newargs, **newkeywargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__test__.py\", line 16, in test_count_categories_data1\nNameError: name 'task_func' is not defined\n", "test_count_categories_data3": "Traceback (most recent call last):\n  File \"/usr/lib/python3.11/unittest/mock.py\", line 1378, in patched\n    return func(*newargs, **newkeywargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__test__.py\", line 38, in test_count_categories_data3\nNameError: name 'task_func' is not defined\n", "test_count_names_data2": "Traceback (most recent call last):\n  File \"/usr/lib/python3.11/unittest/mock.py\", line 1378, in patched\n    return func(*newargs, **newkeywargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__test__.py\", line 27, in test_count_names_data2\nNameError: name 'task_func' is not defined\n", "test_count_names_data3": "Traceback (most recent call last):\n  File \"/usr/lib/python3.11/unittest/mock.py\", line 1378, in patched\n    return func(*newargs, **newkeywargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__test__.py\", line 49, in test_count_names_data3\nNameError: name 'task_func' is not defined\n", "test_non_existent_column": "Traceback (most recent call last):\n  File \"/usr/lib/python3.11/unittest/mock.py\", line 1378, in patched\n    return func(*newargs, **newkeywargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"__test__.py\", line 61, in test_non_existent_column\nNameError: name 'task_func' is not defined\n"}, "passed": false, "status": "fail", "task_id": "BigCodeBench/999"}

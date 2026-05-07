@@ -1,0 +1,3 @@
+suite,model,forecast_groups,tasks_with_repeats,mean_probability_std,selected_budget_agreement,curve_rank_correlation,brier_std,ece_std,budget_choice_change_fraction,prompt_variants_observed,notes
+paper_repeatability_small,DeepSeek-V3-0324,6,100,0.022721,0.975000,1.000000,0.005790,0.012405,0.080000,1,repeat forecasts from frozen repeatability artifacts
+paper_repeatability_small,gemini-2.0-flash-lite-001,6,100,0.009424,0.980000,1.000000,0.004355,0.009433,0.070000,1,repeat forecasts from frozen repeatability artifacts

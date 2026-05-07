@@ -1,0 +1,3 @@
+command,status,summary,details_path
+PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 pytest -q,pass,"initial Stage 0: 91 passed, 1 warning; final run: 99 passed, 1 warning",
+python scripts/validate_submission_package.py --artifact-root reports/artifacts --tables-dir reports/tables --figures-dir reports/figures --docs-dir docs --metadata-dir metadata --run-pytest,pass,"initial Stage 0 passed; final submission package validation passed with embedded pytest row reporting 99 passed, 1 warning",reports/tables/submission_package_validation.csv

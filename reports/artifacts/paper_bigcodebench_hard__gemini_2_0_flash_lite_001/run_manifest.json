@@ -1,0 +1,143 @@
+{
+  "artifact_hashes": {
+    "config_snapshot.yaml": "3cc431ab6c1e048ad1d630ebd8a55d8f44ba3fb651dd8aacda48b30f485d191b",
+    "forecasts.jsonl": "28916551c3e9cdf7bd867e3462d396926c320c2e1d4b647ac879e82d9664003d",
+    "metrics.json": "a7f78d654cfbcfe239e9b7db149c7809a809598c15e7ba254bc8e9fcb064dfd5",
+    "outcomes.jsonl": "a4f1adaa489d4a0b49b9a3be0a204a68e82f599d9e938d2203cead423a1578e1"
+  },
+  "budget_grids": {
+    "coding": [
+      128,
+      256,
+      512,
+      1024,
+      2048,
+      4096
+    ],
+    "default": [
+      128,
+      256,
+      512,
+      1024,
+      2048,
+      4096
+    ]
+  },
+  "code_commit": "2410bee838921f4a50c01ab7d9cee186f1af5778",
+  "command_line_arguments": [
+    "--task-file",
+    "data/processed/paper_bigcodebench_hard.jsonl",
+    "--run-root",
+    "reports/runs/paper_bigcodebench_hard",
+    "--output-root",
+    "reports/artifacts_bigcodebench_official/paper_bigcodebench_hard",
+    "--command-template",
+    "official-package-direct",
+    "--timeout-seconds",
+    "7200"
+  ],
+  "config": {
+    "budget_grid": {
+      "coding": [
+        128,
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ],
+      "default": [
+        128,
+        256,
+        512,
+        1024,
+        2048,
+        4096
+      ]
+    },
+    "endpoint": "/chat/completions",
+    "forecast_only": false,
+    "forecast_prompt": "prompts/forecast_prompt.md",
+    "limit": null,
+    "max_forecast_tokens": 1200,
+    "metadata": {
+      "chat_completion_compatible": true,
+      "cost_cap_usd": 35.0,
+      "defer_verification": true,
+      "model_slug": "gemini_2_0_flash_lite_001",
+      "official_harness_status": "official_labels_completed",
+      "official_label_source": "bigcodebench",
+      "official_labels_required": true,
+      "paper_role": "paper_extension_candidate",
+      "prompt_variant_index": 1,
+      "prompt_variant_path": "prompts/forecast_prompt.md",
+      "replacement_track": "bigcodebench_hard",
+      "requires_docker": false,
+      "source_run_dir": "reports/runs/paper_bigcodebench_hard/gemini_2_0_flash_lite_001",
+      "suite_name": "paper_bigcodebench_hard"
+    },
+    "model": "gemini-2.0-flash-lite-001",
+    "output_dir": "reports/artifacts_bigcodebench_official/paper_bigcodebench_hard",
+    "provider": "chat_gateway",
+    "run_id": "gemini_2_0_flash_lite_001",
+    "scaffold": "direct_code_generation",
+    "solver_prompts": {
+      "coding": "prompts/solve_coding_prompt.md"
+    },
+    "task_file": "data/processed/paper_bigcodebench_hard.jsonl",
+    "temperature": 0.0
+  },
+  "created_utc": "2026-05-04T02:54:54.727357+00:00",
+  "dataset": {
+    "budget_grids_by_source": {
+      "bigcodebench_hard": [
+        [
+          128,
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ]
+      ]
+    },
+    "exists": true,
+    "path": "data/processed/paper_bigcodebench_hard.jsonl",
+    "sha256": "c0c17ffe068511aed4787a07e8c44663813755251c86612747bd48bc82e76307",
+    "sources": {
+      "bigcodebench_hard": {
+        "source_versions": [
+          "bigcodebench-package"
+        ],
+        "tasks": 148,
+        "tracks": [
+          "coding"
+        ],
+        "verifiers": [
+          "bigcodebench"
+        ]
+      }
+    },
+    "tasks": 148
+  },
+  "model_ids": [
+    "gemini-2.0-flash-lite-001"
+  ],
+  "phase": "bigcodebench_official_labels",
+  "prompt_hashes": {
+    "forecast": {
+      "path": "prompts/forecast_prompt.md",
+      "sha256": "82e2dcd0c508f9b6a98a3d5b943839de419509454372f54aac1ed5e2da1940ba"
+    },
+    "solver_coding": {
+      "path": "prompts/solve_coding_prompt.md",
+      "sha256": "747e63037dbac2c5fe94f41407fd29e02b5dc0c446177c6ee16d1a6c152ab061"
+    }
+  },
+  "provider": "chat_gateway",
+  "run_id": "gemini_2_0_flash_lite_001",
+  "scaffold": "direct_code_generation",
+  "schema_version": 1,
+  "source_run_dir": "reports/runs/paper_bigcodebench_hard/gemini_2_0_flash_lite_001",
+  "task_file": "data/processed/paper_bigcodebench_hard.jsonl"
+}

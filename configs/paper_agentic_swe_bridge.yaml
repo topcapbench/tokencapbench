@@ -1,0 +1,29 @@
+suite_name: paper_agentic_swe_bridge
+task_file: data/processed/swe_verified_smoke.jsonl
+output_root: reports/runs
+provider: provider
+models:
+  - gemini-2.0-flash-lite-001
+scaffold: direct
+forecast_prompt: prompts/forecast_prompt.md
+solver_prompts:
+  math: prompts/solve_math_prompt.md
+  coding: prompts/solve_coding_prompt.md
+  swe: prompts/solve_swe_prompt.md
+  agentic: prompts/solve_agentic_prompt.md
+budget_grid:
+  default: [4096, 16384]
+  swe: [4096, 16384]
+limit: 8
+temperature: 0.0
+max_forecast_tokens: 900
+metadata:
+  paper_role: future_work
+  chat_completion_compatible: false
+  infrastructure_only: true
+  source: swebench_verified
+  agent_harness: existing_bridge
+  verifier: swebench_official
+  cost_cap_usd: 20
+  budget_control: generated_token_cap_pilot
+  run_status: not_started_missing_api_key

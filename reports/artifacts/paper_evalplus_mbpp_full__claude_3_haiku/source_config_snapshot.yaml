@@ -1,0 +1,40 @@
+run_id: claude_3_haiku
+task_file: data/processed/paper_evalplus_mbpp_full.jsonl
+output_dir: reports/runs/paper_evalplus_mbpp_full
+provider: provider
+model: claude-3-haiku
+scaffold: direct
+forecast_prompt: prompts/forecast_prompt.md
+solver_prompts:
+  math: prompts/solve_math_prompt.md
+  coding: prompts/solve_coding_prompt.md
+  swe: prompts/solve_swe_prompt.md
+  agentic: prompts/solve_agentic_prompt.md
+budget_grid:
+  default:
+  - 64
+  - 128
+  - 256
+  - 512
+  - 1024
+  - 2048
+  coding:
+  - 64
+  - 128
+  - 256
+  - 512
+  - 1024
+  - 2048
+temperature: 0.0
+max_forecast_tokens: 900
+limit: null
+forecast_only: false
+metadata:
+  paper_role: main_coding_mbpp
+  cost_cap_usd: 20
+  defer_verification: true
+  suite_name: paper_evalplus_mbpp_full
+  model_slug: claude_3_haiku
+  prompt_variant_index: 1
+  prompt_variant_path: prompts/forecast_prompt.md
+defer_verification: true

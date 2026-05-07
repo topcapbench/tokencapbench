@@ -1,0 +1,55 @@
+{
+  "cap_usd": 22.0,
+  "config": "configs/paper_bigcodebench_hard_provider.yaml",
+  "cost_mode": "active_artifact_estimate",
+  "estimated_total_cost_usd": 6.185536,
+  "exceeds_cap": false,
+  "forecast_only": false,
+  "mode": "conservative",
+  "models": [
+    "gemini-2.0-flash-001",
+    "DeepSeek-V3-0324"
+  ],
+  "per_model": [
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 0.595482,
+          "solver_calls": 888,
+          "source": "bigcodebench_hard",
+          "tasks": 148
+        }
+      ],
+      "forecast_call_cost_usd": 0.080382,
+      "model": "gemini-2.0-flash-001",
+      "pricing_basis": "Google Gemini 2.0 Flash standard",
+      "solver_call_cost_usd": 0.5151,
+      "total_cost_usd": 0.595482,
+      "worst_case_cost_usd": 0.595482
+    },
+    {
+      "by_source": [
+        {
+          "estimated_cost_usd": 5.590054,
+          "solver_calls": 888,
+          "source": "bigcodebench_hard",
+          "tasks": 148
+        }
+      ],
+      "forecast_call_cost_usd": 0.780597,
+      "model": "DeepSeek-V3-0324",
+      "pricing_basis": "Conservative DeepSeek official v4-pro undiscounted upper-bound proxy",
+      "solver_call_cost_usd": 4.809457,
+      "total_cost_usd": 5.590054,
+      "worst_case_cost_usd": 5.590054
+    }
+  ],
+  "pricing_config_version": "2026-04-28",
+  "prompt_variants": 1,
+  "reasoning_tokens_available": false,
+  "repeats": 1,
+  "suite_name": "paper_bigcodebench_hard",
+  "tasks": 148,
+  "warning": "Provider invoices may differ from token-based estimate.",
+  "worst_case_total_cost_usd": 6.185536
+}

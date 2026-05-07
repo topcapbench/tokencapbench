@@ -1,0 +1,2 @@
+suite,configured_limit,local_tasks_available,models,estimated_cost_usd,cap_usd,run_status,official_harness_status,notes
+paper_livecodebench_fresh_200,200,200,"claude-3-haiku,DeepSeek-V3-0324,gemini-2.0-flash-001,gemini-2.0-flash-lite-001",6.717387,15.0,configured_not_run,not_run,Cost-estimated under cap; run not completed in this workspace.

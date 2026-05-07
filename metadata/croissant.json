@@ -1,0 +1,267 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "cr": "http://mlcommons.org/croissant/"
+  },
+  "@type": "cr:Dataset",
+  "annotationAndVerifierProcess": "Forecasts are produced in separate contexts from solver runs. Solver outputs are generated under hard token caps and scored with deterministic task verifiers or official benchmark harness bridges.",
+  "artifactReleaseUrl": "reports/tokencapbench_release_archive.zip",
+  "citation": "See CITATION.cff",
+  "codeUrl": ".",
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "Anonymous TokenCapBench authors"
+    }
+  ],
+  "dataSources": [
+    "GSM8K/MATH core",
+    "EvalPlus HumanEval+/MBPP+ core",
+    "BigCodeBench-Hard extension with official-package labels",
+    "CanItEdit provided-test editing bridge",
+    "LiveCodeBench-300 appendix freshness",
+    "token-proxy analysis splits",
+    "strict fixed-budget scheduling summaries"
+  ],
+  "datePublished": "2026-04-29",
+  "description": "Forecasts, budgeted solver outcomes, metrics, and manifests for the TokenCapBench benchmark artifact snapshot.",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "contentSize": 405280,
+      "contentUrl": "external_artifact_store/20260504T212800Z/core/tokencapbench_core_forecasts.jsonl.gz",
+      "encodingFormat": "application/gzip",
+      "name": "external_artifact_store/20260504T212800Z/core/tokencapbench_core_forecasts.jsonl.gz",
+      "sha256": "08ab8826bc537f6558e587efa881493dc2ef7359a8602abd531233ca6f340d79"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentSize": 5009662,
+      "contentUrl": "external_artifact_store/20260504T212800Z/core/tokencapbench_core_outcomes.jsonl.gz",
+      "encodingFormat": "application/gzip",
+      "name": "external_artifact_store/20260504T212800Z/core/tokencapbench_core_outcomes.jsonl.gz",
+      "sha256": "5e425cbe8e98ef14ee3f505181157bc23861ab188ffe5167b9382f210057680c"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentSize": 152313,
+      "contentUrl": "external_artifact_store/20260504T212800Z/extensions/tokencapbench_extension_forecasts.jsonl.gz",
+      "encodingFormat": "application/gzip",
+      "name": "external_artifact_store/20260504T212800Z/extensions/tokencapbench_extension_forecasts.jsonl.gz",
+      "sha256": "579a7c3c8ecb1f218ad310f809714e2898c32960d85756d0da2a92ae538340f1"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentSize": 2681948,
+      "contentUrl": "external_artifact_store/20260504T212800Z/extensions/tokencapbench_extension_outcomes.jsonl.gz",
+      "encodingFormat": "application/gzip",
+      "name": "external_artifact_store/20260504T212800Z/extensions/tokencapbench_extension_outcomes.jsonl.gz",
+      "sha256": "057ee5bc2211b0faa03c49867288dc10f34335d3c111de9d99820d2b48d453f1"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentSize": 69529,
+      "contentUrl": "external_artifact_store/20260504T212800Z/timing/tokencapbench_timing_diagnostic_forecasts.jsonl.gz",
+      "encodingFormat": "application/gzip",
+      "name": "external_artifact_store/20260504T212800Z/timing/tokencapbench_timing_diagnostic_forecasts.jsonl.gz",
+      "sha256": "3b9255ceccd4789cac29ff97914234615fea981b84c0579d9b38bc1f9db1c1bd"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentSize": 528683,
+      "contentUrl": "external_artifact_store/20260504T212800Z/timing/tokencapbench_timing_diagnostic_outcomes.jsonl.gz",
+      "encodingFormat": "application/gzip",
+      "name": "external_artifact_store/20260504T212800Z/timing/tokencapbench_timing_diagnostic_outcomes.jsonl.gz",
+      "sha256": "d61985ca056859055a36e611f5d7fab2ebe7e84ec8bc10a138a33823a8ab6bdd"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentSize": 12873,
+      "contentUrl": "external_artifact_store/20260504T212800Z/core/tokencapbench_core_metrics.json",
+      "encodingFormat": "application/json",
+      "name": "external_artifact_store/20260504T212800Z/core/tokencapbench_core_metrics.json",
+      "sha256": "b9bc110d0e87cd5f9f9255652c9ec8d75cd2f06f7c502a52980e271a18c0f2f9"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentSize": 11610,
+      "contentUrl": "external_artifact_store/20260504T212800Z/extensions/tokencapbench_extension_metrics.json",
+      "encodingFormat": "application/json",
+      "name": "external_artifact_store/20260504T212800Z/extensions/tokencapbench_extension_metrics.json",
+      "sha256": "abcd00219d7ec53455f15d6ba951a9978078374be631ad85ef273e730ddaade3"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentSize": 13339,
+      "contentUrl": "external_artifact_store/20260504T212800Z/timing/tokencapbench_timing_diagnostic_metrics.json",
+      "encodingFormat": "application/json",
+      "name": "external_artifact_store/20260504T212800Z/timing/tokencapbench_timing_diagnostic_metrics.json",
+      "sha256": "50827d702ca109ec73a4be7e0c2fa1927bd582839c80e5d743372014beaeeb63"
+    },
+    {
+      "@type": "cr:FileObject",
+      "contentUrl": "reports/tokencapbench_release_archive.zip",
+      "encodingFormat": "application/zip",
+      "name": "reports/tokencapbench_release_archive.zip"
+    }
+  ],
+  "hosting_status": "AUTHOR_OWNED_NEEDS_ANONYMOUS_URL",
+  "intendedUse": "Evaluate whether language models can forecast their probability of verified task success under generated-token budgets before solver tokens are spent.",
+  "keywords": [
+    "calibration",
+    "token budgets",
+    "verified success",
+    "LLM evaluation"
+  ],
+  "knownLimitations": "Budgets are generated-token caps, not full hidden reasoning compute. CanItEdit uses provided tests, not hidden tests. The package makes no official SWE/Docker/agent-runtime claim. Public benchmark contamination is possible for standard substrates.",
+  "license": "MIT",
+  "maintenancePlan": "Refresh task splits, provider pricing, official harness pins, and SHA-256 manifests when rerunning paper experiments or adding new benchmark sources.",
+  "name": "TokenCapBench",
+  "outOfScopeUse": "Do not use these artifacts as a raw output-length benchmark or as evidence for full SWE/agentic coverage without official harness runs.",
+  "rai": {
+    "annotation_verifier_process": "Deterministic external verification of hard-capped solver outputs.",
+    "data_sources": "Public benchmark tasks plus generated model forecasts and solver outcomes.",
+    "intended_use": "Token-budget self-forecasting research and evaluation.",
+    "known_limitations": "Generated-token caps do not include hidden reasoning compute; CanItEdit uses provided tests; no official SWE/Docker/agent claim is made.",
+    "maintenance_plan": "Pin harness versions and regenerate manifests on every release refresh.",
+    "out_of_scope_use": "Raw output-length prediction or unsupported SWE/agentic claims.",
+    "sensitive_content": "No intentional personal-data collection; release scrub is required."
+  },
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "description": "One record per packaged run directory.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "name": "suite"
+        },
+        {
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "name": "run_id"
+        },
+        {
+          "@type": "cr:Field",
+          "dataType": "sc:Text",
+          "name": "model"
+        },
+        {
+          "@type": "cr:Field",
+          "dataType": "sc:Integer",
+          "name": "forecasts"
+        },
+        {
+          "@type": "cr:Field",
+          "dataType": "sc:Integer",
+          "name": "outcomes"
+        }
+      ],
+      "name": "paper_runs"
+    }
+  ],
+  "releaseMode": "relative_path_archive",
+  "releaseModeDescription": "Distribution contentUrl paths are relative to the repository or release archive until authors upload an anonymous hosted copy.",
+  "runSummary": [
+    {
+      "artifact_source": "artifacts",
+      "forecasts": 164,
+      "model": "claude-3-haiku",
+      "outcomes": 984,
+      "run_id": "claude_3_haiku",
+      "suite": "paper_evalplus_humaneval_full"
+    },
+    {
+      "artifact_source": "artifacts",
+      "forecasts": 164,
+      "model": "DeepSeek-V3-0324",
+      "outcomes": 984,
+      "run_id": "deepseek_v3_0324",
+      "suite": "paper_evalplus_humaneval_full"
+    },
+    {
+      "artifact_source": "artifacts",
+      "forecasts": 164,
+      "model": "gemini-2.0-flash-001",
+      "outcomes": 984,
+      "run_id": "gemini_2_0_flash_001",
+      "suite": "paper_evalplus_humaneval_full"
+    },
+    {
+      "artifact_source": "artifacts",
+      "forecasts": 164,
+      "model": "gemini-2.0-flash-lite-001",
+      "outcomes": 984,
+      "run_id": "gemini_2_0_flash_lite_001",
+      "suite": "paper_evalplus_humaneval_full"
+    },
+    {
+      "artifact_source": "artifacts",
+      "forecasts": 378,
+      "model": "claude-3-haiku",
+      "outcomes": 2268,
+      "run_id": "claude_3_haiku",
+      "suite": "paper_evalplus_mbpp_full"
+    },
+    {
+      "artifact_source": "artifacts",
+      "forecasts": 378,
+      "model": "DeepSeek-V3-0324",
+      "outcomes": 2268,
+      "run_id": "deepseek_v3_0324",
+      "suite": "paper_evalplus_mbpp_full"
+    },
+    {
+      "artifact_source": "artifacts",
+      "forecasts": 378,
+      "model": "gemini-2.0-flash-001",
+      "outcomes": 2268,
+      "run_id": "gemini_2_0_flash_001",
+      "suite": "paper_evalplus_mbpp_full"
+    },
+    {
+      "artifact_source": "artifacts",
+      "forecasts": 378,
+      "model": "gemini-2.0-flash-lite-001",
+      "outcomes": 2268,
+      "run_id": "gemini_2_0_flash_lite_001",
+      "suite": "paper_evalplus_mbpp_full"
+    },
+    {
+      "artifact_source": "artifacts",
+      "forecasts": 1000,
+      "model": "claude-3-haiku",
+      "outcomes": 5000,
+      "run_id": "claude_3_haiku",
+      "suite": "paper_math_core"
+    },
+    {
+      "artifact_source": "artifacts",
+      "forecasts": 1000,
+      "model": "DeepSeek-V3-0324",
+      "outcomes": 5000,
+      "run_id": "deepseek_v3_0324",
+      "suite": "paper_math_core"
+    },
+    {
+      "artifact_source": "artifacts",
+      "forecasts": 1000,
+      "model": "gemini-2.0-flash-001",
+      "outcomes": 5000,
+      "run_id": "gemini_2_0_flash_001",
+      "suite": "paper_math_core"
+    },
+    {
+      "artifact_source": "artifacts",
+      "forecasts": 1000,
+      "model": "gemini-2.0-flash-lite-001",
+      "outcomes": 5000,
+      "run_id": "gemini_2_0_flash_lite_001",
+      "suite": "paper_math_core"
+    }
+  ],
+  "sensitiveContentStatement": "The benchmark uses public math and programming tasks and does not intentionally collect personal data. Generated model outputs may still contain unexpected text and should be scrubbed before release.",
+  "url": "reports/tokencapbench_release_archive.zip",
+  "version": "2026-04-29"
+}

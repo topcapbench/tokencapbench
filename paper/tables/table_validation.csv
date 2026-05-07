@@ -1,0 +1,9 @@
+check,result
+Core outcome JSONL rows,"PASS (33,008)"
+Core outcome SHA-256,"PASS (prefix f2d07c91718e)"
+Core forecast rows,"PASS (6,168)"
+HumanEval+ outcome rows,"PASS (3,936)"
+MBPP+ outcome rows,"PASS (9,072)"
+Math core outcome rows,"PASS (20,000)"
+Paper tables/figures regenerated,PASS
+Supplementary release archive,PASS

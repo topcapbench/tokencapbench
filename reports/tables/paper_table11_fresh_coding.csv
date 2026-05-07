@@ -1,0 +1,2 @@
+suite,model,n_tasks,brier,ece,success_at_max_budget,regret,official_harness_status,notes
+paper_livecodebench_fresh_small,,50,,,,,configured_not_run,Fresh coding split is configured; no official LiveCodeBench run is included as main evidence.
