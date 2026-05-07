@@ -49,7 +49,7 @@ task + budget grid
   -> calibration, ranking, and allocation metrics
 ```
 
-![TokenCapBench protocol](reports/figures/paper_figure1_pipeline.png)
+![TokenCapBench protocol](paper/figures/figure1_protocol.png)
 
 TokenCapBench is not raw response-length prediction. The controlled intervention
 is the generated-token cap, and the target is verified success under that cap.
